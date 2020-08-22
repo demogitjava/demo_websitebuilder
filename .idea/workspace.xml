@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +37,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -63,7 +67,7 @@
       <workItem from="1598031400341" duration="772000" />
       <workItem from="1598071886348" duration="86000" />
       <workItem from="1598072036271" duration="1339000" />
-      <workItem from="1598073589639" duration="2902000" />
+      <workItem from="1598073589639" duration="3239000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -79,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598075141386</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="set up demo websitebuilder for module webshop">
+      <created>1598076585254</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598076585254</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,10 +109,10 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="620" y="221" width="800" height="682" key="#Plugins/65.24.1855.1056@65.24.1855.1056" timestamp="1598072061558" />
-    <state x="627" y="133" width="935" height="871" key="CommitChangelistDialog2" timestamp="1598075111418">
+    <state x="627" y="133" width="935" height="871" key="CommitChangelistDialog2" timestamp="1598076584209">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="627" y="133" width="935" height="871" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1598075111418" />
+    <state x="627" y="133" width="935" height="871" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1598076584209" />
     <state x="822" y="305" width="424" height="511" key="FileChooserDialogImpl" timestamp="1598072394704">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -162,10 +173,10 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1588" height="604" key="GridCell.Tab.2.right/65.24.1855.1056@65.24.1855.1056" timestamp="1598073443803" />
-    <state x="663" y="227" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1598076339333">
+    <state x="663" y="188" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1598076602539">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="663" y="227" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1598076339333" />
+    <state x="663" y="188" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1598076602539" />
     <state x="811" y="290" width="562" height="536" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1598073961367">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>

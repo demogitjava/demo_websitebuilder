@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5c10eee5-da3d-4ce9-ad94-1111afb5c4b7" name="https://github.com/demogitjava/demo_websitebuilder.git" url="https://github.com/demogitjava/demo_websitebuilder.git">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
