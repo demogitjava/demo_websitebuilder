@@ -81,6 +81,12 @@
         </dependency>
 
 
+        <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.10.2</version>
+        </dependency>
 
     </dependencies>
 
@@ -92,6 +98,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>1.4.4.RELEASE</version>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
