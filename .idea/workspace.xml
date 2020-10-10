@@ -5,338 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add bootstrap small business template to websitebuilder &#10;in the demo.html as default.&#10;&#10;implement h2 server with h2-console to edit datatables">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jgsoftware.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/fabric.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/stylesheets/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/css/small-business (Kopie).css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/css/small-business.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/jquery/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/jquery/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/jquery/jquery.slim.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_websitebuilder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_websitebuilder.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/DemoWebsitebuilderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/DemoWebsitebuilderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/TODO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/dist/grapesjs-blocks-bootstrap4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/dist/grapesjs-blocks-bootstrap4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/bootstrap-btn-sizes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/bootstrap-btn-sizes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/bootstrap-contexts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/bootstrap-contexts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/commands.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Alert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Badge.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Badge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/ButtonGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/ButtonGroup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/ButtonToolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/ButtonToolbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Checkbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Collapse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Column.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Column.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/ColumnBreak.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/ColumnBreak.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Default.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Dropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/FileInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/FileInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/InputGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/InputGroup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Label.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Label.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Link.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Link.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/List.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/MediaObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/MediaObject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Paragraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Paragraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Radio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Radio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Row.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Text.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Textarea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/Textarea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/tabs/Tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/tabs/Tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/tabs/TabPane.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/tabs/TabPane.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/tabs/TabsNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/tabs/TabsNavigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/tabs/TabsPanes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/tabs/TabsPanes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/tabs/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/tabs/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/video/Embed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/video/Embed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/video/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/components/video/Video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/devices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/devices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/button.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/button.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/caret-square-down-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/caret-square-down-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/certificate-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/certificate-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/check-square-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/check-square-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/circle-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/circle-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/columns-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/columns-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/compress-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/compress-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/credit-card-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/credit-card-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/dot-circle-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/dot-circle-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/ellipsis-h-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/ellipsis-h-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/equals-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/equals-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/exclamation-triangle-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/exclamation-triangle-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/file-input.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/file-input.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/font-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/font-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/form-group.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/form-group.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/form.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/form.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/heading-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/heading-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/image-light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/image-light.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/image-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/image-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/input-group.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/input-group.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/input.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/input.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/label.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/label.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/link-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/link-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/paragraph-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/paragraph-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/select-input.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/select-input.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/textarea.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/textarea.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/window-maximize-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/window-maximize-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/youtube-brands.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/icons/youtube-brands.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/traits.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/traits.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/src/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/TODO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/dist/grapesjs-blocks-bootstrap4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/dist/grapesjs-blocks-bootstrap4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/bootstrap-btn-sizes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/bootstrap-btn-sizes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/bootstrap-contexts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/bootstrap-contexts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/commands.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Alert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Badge.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Badge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/ButtonGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/ButtonGroup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/ButtonToolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/ButtonToolbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Checkbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Collapse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Column.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Column.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/ColumnBreak.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/ColumnBreak.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Default.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Dropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/FileInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/FileInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/InputGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/InputGroup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Label.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Label.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Link.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Link.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/List.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/MediaObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/MediaObject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Paragraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Paragraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Radio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Radio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Row.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Text.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Textarea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/Textarea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/tabs/Tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/tabs/Tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/tabs/TabPane.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/tabs/TabPane.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/tabs/TabsNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/tabs/TabsNavigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/tabs/TabsPanes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/tabs/TabsPanes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/tabs/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/tabs/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/video/Embed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/video/Embed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/video/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/components/video/Video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/devices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/devices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/button.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/button.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/caret-square-down-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/caret-square-down-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/certificate-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/certificate-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/check-square-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/check-square-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/circle-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/circle-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/columns-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/columns-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/compress-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/compress-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/credit-card-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/credit-card-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/dot-circle-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/dot-circle-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/ellipsis-h-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/ellipsis-h-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/equals-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/equals-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/exclamation-triangle-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/exclamation-triangle-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/file-input.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/file-input.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/font-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/font-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/form-group.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/form-group.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/form.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/form.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/heading-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/heading-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/image-light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/image-light.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/image-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/image-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/input-group.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/input-group.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/input.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/input.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/label.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/label.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/link-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/link-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/paragraph-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/paragraph-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/select-input.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/select-input.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/textarea.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/textarea.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/window-maximize-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/window-maximize-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/youtube-brands.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/icons/youtube-brands.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/traits.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/traits.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/src/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/template1/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/css/album.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/css/album.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/angular-cookies.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/angular-cookies.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/angular-loader.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/angular-loader.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/angular-mocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/angular-mocks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/angular-resource.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/angular-resource.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/angular-route.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/angular-route.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/angular.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/jquery-3.5.1.slim.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/jquery-3.5.1.slim.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/templatefragment1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fragments/template1/templatefragment1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/grapesjs-plugin-forms.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/grapesjs-plugin-forms.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/stylesheets/album.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/stylesheets/album.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/stylesheets/fontcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/stylesheets/fontcss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/stylesheets/grapick.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/stylesheets/grapick.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/templates/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -387,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/js" />
+    <property name="last_opened_file_path" value="/home/hoscho/Schreibtisch/spring-integration-sample-mqtt-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -416,16 +86,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/static/templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoWebsitebuilderApplication">
-    <configuration name="demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://github.com/demogitjava/demo_websitebuilder.git/src/main/resources/static/demo.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://github.com/demogitjava/demo_websitebuilder.git/src/main/resources/static/index.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="grapesjs-navbar.min.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/target/classes/static/js/grapesjs-navbar.min.js" working-dir="$PROJECT_DIR$/target/classes/static/js">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="DemoWebsitebuilderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo_websitebuilder" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="de.jgsoftware.websitebuilder.DemoWebsitebuilderApplication" />
@@ -433,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JavaScript Debug.demo.html" />
-      <item itemvalue="Node.js.grapesjs-navbar.min.js" />
-      <item itemvalue="Spring Boot.DemoWebsitebuilderApplication" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.demo.html" />
-        <item itemvalue="Node.js.grapesjs-navbar.min.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -479,6 +127,8 @@
       <workItem from="1601567732957" duration="19647000" />
       <workItem from="1601665737475" duration="711000" />
       <workItem from="1601666719373" duration="2110000" />
+      <workItem from="1602251026288" duration="6828000" />
+      <workItem from="1602353809967" duration="1331000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -550,11 +200,11 @@
     </state>
     <state x="1831" y="460" width="788" height="405" key="#Web_Browsers/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598706012322" />
     <state x="514" y="642" width="472" height="405" key="#Web_Browsers/65.24.1855.1056@65.24.1855.1056" timestamp="1601239295490" />
-    <state x="337" y="146" width="1126" height="750" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601662414795">
+    <state x="292" y="167" width="1126" height="776" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602251418606">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1530" y="308" width="1084" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598706381002" />
-    <state x="337" y="146" width="1126" height="750" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1601662414795" />
+    <state x="292" y="167" width="1126" height="776" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1602251418606" />
     <state x="593" y="310" width="582" height="645" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1601543534475">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -573,11 +223,11 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="171" y="180" width="1613" height="828" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1601544413695" />
-    <state x="904" y="52" width="424" height="1028" key="FileChooserDialogImpl" timestamp="1601541412537">
+    <state x="904" y="52" width="424" height="1028" key="FileChooserDialogImpl" timestamp="1602352301341">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="2221" y="237" width="424" height="700" key="FileChooserDialogImpl/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598706901457" />
-    <state x="904" y="52" width="424" height="1028" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1601541412537" />
+    <state x="904" y="52" width="424" height="1028" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1602352301341" />
     <state x="668" y="495" key="Github.CreateGistDialog" timestamp="1598031536759">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -586,46 +236,46 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="543" y="338" width="706" height="212" key="Github.ShareDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1598030128935" />
-    <state width="1021" height="274" key="GridCell.Tab.0.bottom" timestamp="1601665605891">
+    <state width="1279" height="578" key="GridCell.Tab.0.bottom" timestamp="1602324517227">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.bottom/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507487" />
-    <state width="1021" height="274" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1601665605891" />
-    <state width="1021" height="274" key="GridCell.Tab.0.center" timestamp="1601665605890">
+    <state width="1279" height="578" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1602324517227" />
+    <state width="1279" height="578" key="GridCell.Tab.0.center" timestamp="1602324517225">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.center/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507483" />
-    <state width="1021" height="274" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1601665605890" />
-    <state width="1021" height="274" key="GridCell.Tab.0.left" timestamp="1601665605889">
+    <state width="1279" height="578" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1602324517225" />
+    <state width="1279" height="578" key="GridCell.Tab.0.left" timestamp="1602324517224">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.left/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507482" />
-    <state width="1021" height="274" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1601665605889" />
-    <state width="1021" height="274" key="GridCell.Tab.0.right" timestamp="1601665605890">
+    <state width="1279" height="578" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1602324517224" />
+    <state width="1279" height="578" key="GridCell.Tab.0.right" timestamp="1602324517226">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.right/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507483" />
-    <state width="1021" height="274" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1601665605890" />
-    <state width="1021" height="274" key="GridCell.Tab.1.bottom" timestamp="1601665605905">
+    <state width="1279" height="578" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1602324517226" />
+    <state width="1279" height="578" key="GridCell.Tab.1.bottom" timestamp="1602324517232">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.bottom/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1021" height="274" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1601665605905" />
-    <state width="1021" height="274" key="GridCell.Tab.1.center" timestamp="1601665605902">
+    <state width="1279" height="578" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1602324517232" />
+    <state width="1279" height="578" key="GridCell.Tab.1.center" timestamp="1602324517230">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.center/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1021" height="274" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1601665605902" />
-    <state width="1021" height="274" key="GridCell.Tab.1.left" timestamp="1601665605892">
+    <state width="1279" height="578" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1602324517230" />
+    <state width="1279" height="578" key="GridCell.Tab.1.left" timestamp="1602324517228">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.left/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1021" height="274" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1601665605892" />
-    <state width="1021" height="274" key="GridCell.Tab.1.right" timestamp="1601665605904">
+    <state width="1279" height="578" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1602324517228" />
+    <state width="1279" height="578" key="GridCell.Tab.1.right" timestamp="1602324517231">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.right/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1021" height="274" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1601665605904" />
+    <state width="1279" height="578" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1602324517231" />
     <state width="1021" height="274" key="GridCell.Tab.2.bottom" timestamp="1601665605908">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -685,10 +335,10 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="641" y="387" width="550" height="375" key="jetbrains.nodejs.interpreters-dialog/65.24.1855.1056@65.24.1855.1056" timestamp="1601206317895" />
-    <state x="529" y="325" key="search.everywhere.popup" timestamp="1601125196448">
+    <state x="529" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1602323930602">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="529" y="325" key="search.everywhere.popup/65.24.1855.1056@65.24.1855.1056" timestamp="1601125196448" />
+    <state x="529" y="325" width="672" height="678" key="search.everywhere.popup/65.24.1855.1056@65.24.1855.1056" timestamp="1602323930602" />
     <state x="568" y="195" width="910" height="767" key="svn4idea.diff.options" timestamp="1598076472238">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
