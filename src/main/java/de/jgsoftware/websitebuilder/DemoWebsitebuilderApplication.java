@@ -1,6 +1,11 @@
 package de.jgsoftware.websitebuilder;
 
 import org.h2.tools.Server;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
@@ -10,10 +15,12 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import javax.sql.DataSource;
+import java.io.IOException;
 import java.sql.SQLException;
 
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class })
-public class DemoWebsitebuilderApplication {
+public class DemoWebsitebuilderApplication
+{
 
     public DemoWebsitebuilderApplication()
     {
@@ -22,6 +29,7 @@ public class DemoWebsitebuilderApplication {
 
     public static void main(String[] args)
     {
+
         SpringApplication.run(DemoWebsitebuilderApplication.class, args);
     }
 
