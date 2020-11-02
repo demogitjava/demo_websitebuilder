@@ -34,6 +34,18 @@ public class DemoController
 
 
 
+    /*
+
+        @RequestMapping("/index")
+	public ModelAndView thymeleafView(Map<String, Object> model) {
+	    model.put("number", 1234);
+	    model.put("message", "Hello from Spring MVC");
+	    return new ModelAndView("thymeleaf/index");
+	}
+ public String index(Model model, Locale locale)
+     */
+
+
 
 
 }
