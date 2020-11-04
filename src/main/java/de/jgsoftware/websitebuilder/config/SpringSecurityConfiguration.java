@@ -37,23 +37,37 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter{
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http
-			.authorizeRequests()
-			.antMatchers(
-					"/index.html",
-					"/resources/**"
-					).permitAll()
-			.and()
-			.formLogin()
-			.loginPage("/login")
-			.usernameParameter("email")
-			.passwordParameter("password")
-			.and()
-			.logout()
-			.logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
-			.logoutSuccessUrl("/login")
-			.and()
-			.rememberMe().tokenValiditySeconds(30000).key("keytoken!")
-			.rememberMeParameter("checkRememberMe");
+
+				.authorizeRequests()
+				.antMatchers(
+						"/index.html",
+						"/resources/**"
+				).permitAll()
+				.and()
+
+				/**
+				 *  disable
+				 *  HTTP Strict Transport Security (HSTS)
+				 */
+				.headers()
+				.frameOptions().sameOrigin()
+				.httpStrictTransportSecurity().disable()
+				.and()
+
+				/**
+				 *  Login
+				 */
+				.formLogin()
+				.loginPage("/login")
+				.usernameParameter("email")
+				.passwordParameter("password")
+				.and()
+				.logout()
+				.logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
+				.logoutSuccessUrl("/login")
+				.and()
+				.rememberMe().tokenValiditySeconds(30000).key("keytoken!")
+				.rememberMeParameter("checkRememberMe");
 	}
 
 
