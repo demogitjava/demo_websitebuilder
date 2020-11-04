@@ -12,6 +12,7 @@ import org.springframework.security.web.firewall.DefaultHttpFirewall;
 import org.springframework.security.web.firewall.HttpFirewall;
 import org.springframework.security.web.firewall.StrictHttpFirewall;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 
 import javax.sql.DataSource;
 
@@ -34,16 +35,10 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter{
 	}
 
 
+
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http
-
-				.authorizeRequests()
-				.antMatchers(
-						"/index.html",
-						"/resources/**"
-				).permitAll()
-				.and()
 
 				/**
 				 *  disable
@@ -53,6 +48,16 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter{
 				.frameOptions().sameOrigin()
 				.httpStrictTransportSecurity().disable()
 				.and()
+
+				.authorizeRequests()
+				.antMatchers(
+						"/index.html",
+						"/static/**",
+						"/resources/**"
+
+				).permitAll()
+				.and()
+
 
 				/**
 				 *  Login
@@ -69,6 +74,8 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter{
 				.rememberMe().tokenValiditySeconds(30000).key("keytoken!")
 				.rememberMeParameter("checkRememberMe");
 	}
+
+
 
 
 	@Bean
