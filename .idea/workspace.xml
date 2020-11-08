@@ -13,14 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add gitatribute for java projects">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/grapesjs/grapesjs-plugin-export.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add to pom.xml remote pluginurl https://repo.maven.apache.org/maven2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +158,7 @@
       <workItem from="1604476233353" duration="23953000" />
       <workItem from="1604671993328" duration="13511000" />
       <workItem from="1604765381328" duration="5575000" />
-      <workItem from="1604830128805" duration="1341000" />
+      <workItem from="1604830128805" duration="4598000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -220,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604507245933</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add to pom.xml remote pluginurl https://repo.maven.apache.org/maven2">
+      <created>1604831959671</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604831959672</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +252,8 @@
     <MESSAGE value="disable hsts header in spring boot config security" />
     <MESSAGE value="add free version of front-awesome to the project and html fix errors" />
     <MESSAGE value="add gitatribute for java projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gitatribute for java projects" />
+    <MESSAGE value="add to pom.xml remote pluginurl https://repo.maven.apache.org/maven2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add to pom.xml remote pluginurl https://repo.maven.apache.org/maven2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="669" y="222" width="1104" height="506" key="#Deployment" timestamp="1598076576842">
@@ -314,46 +318,46 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="543" y="338" width="706" height="212" key="Github.ShareDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1598030128935" />
-    <state width="884" height="296" key="GridCell.Tab.0.bottom" timestamp="1604830605313">
+    <state width="1422" height="411" key="GridCell.Tab.0.bottom" timestamp="1604834599697">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.bottom/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507487" />
-    <state width="884" height="296" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605313" />
-    <state width="884" height="296" key="GridCell.Tab.0.center" timestamp="1604830605311">
+    <state width="1422" height="411" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599697" />
+    <state width="1422" height="411" key="GridCell.Tab.0.center" timestamp="1604834599691">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.center/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507483" />
-    <state width="884" height="296" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605311" />
-    <state width="884" height="296" key="GridCell.Tab.0.left" timestamp="1604830605309">
+    <state width="1422" height="411" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599691" />
+    <state width="1422" height="411" key="GridCell.Tab.0.left" timestamp="1604834599690">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.left/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507482" />
-    <state width="884" height="296" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605309" />
-    <state width="884" height="296" key="GridCell.Tab.0.right" timestamp="1604830605312">
+    <state width="1422" height="411" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599690" />
+    <state width="1422" height="411" key="GridCell.Tab.0.right" timestamp="1604834599693">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.right/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507483" />
-    <state width="884" height="296" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605312" />
-    <state width="884" height="296" key="GridCell.Tab.1.bottom" timestamp="1604830605317">
+    <state width="1422" height="411" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599693" />
+    <state width="1422" height="411" key="GridCell.Tab.1.bottom" timestamp="1604834599701">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.bottom/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="884" height="296" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605317" />
-    <state width="884" height="296" key="GridCell.Tab.1.center" timestamp="1604830605315">
+    <state width="1422" height="411" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599701" />
+    <state width="1422" height="411" key="GridCell.Tab.1.center" timestamp="1604834599699">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.center/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="884" height="296" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605315" />
-    <state width="884" height="296" key="GridCell.Tab.1.left" timestamp="1604830605314">
+    <state width="1422" height="411" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599699" />
+    <state width="1422" height="411" key="GridCell.Tab.1.left" timestamp="1604834599698">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.left/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="884" height="296" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605314" />
-    <state width="884" height="296" key="GridCell.Tab.1.right" timestamp="1604830605316">
+    <state width="1422" height="411" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599698" />
+    <state width="1422" height="411" key="GridCell.Tab.1.right" timestamp="1604834599700">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.right/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="884" height="296" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605316" />
+    <state width="1422" height="411" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599700" />
     <state width="1021" height="274" key="GridCell.Tab.2.bottom" timestamp="1601665605908">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -387,11 +391,11 @@
     </state>
     <state x="1763" y="258" width="1320" height="730" key="SettingsEditor/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598707469641" />
     <state x="390" y="324" width="1155" height="728" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1604831567515" />
-    <state x="682" y="198" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1604507252008">
+    <state x="682" y="226" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1604831968156">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1985" y="196" key="Vcs.Push.Dialog.v2/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709912844" />
-    <state x="682" y="198" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1604507252008" />
+    <state x="682" y="226" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1604831968156" />
     <state x="570" y="388" width="984" height="515" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604568791715">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
