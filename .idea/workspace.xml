@@ -157,7 +157,7 @@
       <workItem from="1604476233353" duration="23953000" />
       <workItem from="1604671993328" duration="13511000" />
       <workItem from="1604765381328" duration="5575000" />
-      <workItem from="1604830128805" duration="5077000" />
+      <workItem from="1604830128805" duration="5446000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604835378756</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="edit readme.md">
+      <created>1604835511305</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604835511305</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,11 +412,11 @@
     </state>
     <state x="1763" y="258" width="1320" height="730" key="SettingsEditor/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598707469641" />
     <state x="390" y="324" width="1155" height="728" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1604831567515" />
-    <state x="682" y="282" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1604835381332">
+    <state x="682" y="310" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1604835514214">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1985" y="196" key="Vcs.Push.Dialog.v2/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709912844" />
-    <state x="682" y="282" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1604835381332" />
+    <state x="682" y="310" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1604835514214" />
     <state x="570" y="388" width="984" height="515" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604568791715">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
