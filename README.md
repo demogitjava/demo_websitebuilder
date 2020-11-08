@@ -2,6 +2,14 @@
 Demo Websitebuilder with Spring Boot + Theamleaf + Grapesjs
 ============================================================
 
+make sure that you the h2 demodatabases are installed
+the default path is your user directory as root
+under ubuntu is
+<br/>
+/root
+<br/>
+for an other path you habe to edit the application.properties file
+
 <br/>
 <br/>
 
