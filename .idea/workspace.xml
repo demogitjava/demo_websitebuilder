@@ -13,10 +13,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add to pom.xml remote pluginurl https://repo.maven.apache.org/maven2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit readme.md">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +156,7 @@
       <workItem from="1604476233353" duration="23953000" />
       <workItem from="1604671993328" duration="13511000" />
       <workItem from="1604765381328" duration="5575000" />
-      <workItem from="1604830128805" duration="4598000" />
+      <workItem from="1604830128805" duration="4920000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -223,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604831959672</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="edit readme.md">
+      <created>1604835053429</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604835053429</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +258,8 @@
     <MESSAGE value="add free version of front-awesome to the project and html fix errors" />
     <MESSAGE value="add gitatribute for java projects" />
     <MESSAGE value="add to pom.xml remote pluginurl https://repo.maven.apache.org/maven2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add to pom.xml remote pluginurl https://repo.maven.apache.org/maven2" />
+    <MESSAGE value="edit readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit readme.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="669" y="222" width="1104" height="506" key="#Deployment" timestamp="1598076576842">
@@ -391,11 +397,11 @@
     </state>
     <state x="1763" y="258" width="1320" height="730" key="SettingsEditor/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598707469641" />
     <state x="390" y="324" width="1155" height="728" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1604831567515" />
-    <state x="682" y="226" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1604831968156">
+    <state x="682" y="254" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1604835057465">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1985" y="196" key="Vcs.Push.Dialog.v2/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709912844" />
-    <state x="682" y="226" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1604831968156" />
+    <state x="682" y="254" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1604835057465" />
     <state x="570" y="388" width="984" height="515" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604568791715">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
