@@ -40,6 +40,19 @@ public class IndexPageController {
     }
 
 
+    @PostMapping("/edit/crudlist")
+    public ModelAndView editcrudlist()
+    {
+
+        ModelAndView mv = new ModelAndView("editcrudlist");
+
+
+
+
+        return mv;
+    }
+
+
     @GetMapping("login")
     public String login() {
         return "login";

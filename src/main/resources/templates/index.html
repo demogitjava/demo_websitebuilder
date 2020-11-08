@@ -55,13 +55,13 @@
 
   <body>
 
+
   <p th:text="${message}"></p>
 
 
 
-
   <div id="gjs" th:include="startbootstrap-small-business/index">
-
+    <p th:text="${message}"></p>
   </div>
 
   <script type="application/javascript">
@@ -92,8 +92,6 @@
          '/bootstrap4/css/bootstrap.css',
          '/fontawesome/css/fontawesome.css',
          '/grapesjs/css/grapes.min.css',
-
-
        ],
        scripts: [
          '/grapesjs/grapes.min.js',
@@ -101,20 +99,17 @@
          '/popper.min.js',
          '/bootstrap4/js/bootstrap.js',
          '/bootstrap4/js/bootstrap.bundle.js',
-         '/grapesjs/ajaxable.min.js'
+         '/grapesjs/ajaxable.min.js',
 
        ],
         plugins: [
           'gjs-preset-webpage',
-          'grapesjs-blocks-bootstrap4'
+          'grapesjs-blocks-bootstrap4',
+
         ],
-
-
      }
 
    });
-
-
 
    let panelManager = editor.Panels;
    panelManager.addButton('options', {
@@ -123,8 +118,6 @@
      command   : e => e.runCommand('core:canvas-clear'),
      active    : false
    });
-
-
 
 
    editor.BlockManager.add('Container',
@@ -155,15 +148,11 @@
                      '</div>',
            });
 
-
-
-
-
    editor.BlockManager.add('TestMessage',
            {
              category: 'Bootstrap4',
              label: '<h1><i class="fa fa-th fa-lg"></i></h1> dynamic test',
-             content: '<p id="message">[[${message}]]</p>',
+             content: '<p th:text="${message}"></p>',
 
            });
 
@@ -171,11 +160,14 @@
    window.editor = editor;
   </script>
 
+
+
   <div id="tablecrud">
 
     <table class="table table-striped">
       <thead>
           <tr>
+            <th>id</th>
             <th>Framename</th>
             <th>German</th>
             <th>English</th>
@@ -191,6 +183,7 @@
       </thead>
       <tbody>
         <tr th:each="webtextlayout : ${listtemplate}">
+          <td th:text="${webtextlayout.id}">id</td>
           <td th:text="${webtextlayout.framename}">Framename</td>
           <td th:text="${webtextlayout.de}">German</td>
           <td th:text="${webtextlayout.eng}">English</td>
@@ -202,33 +195,70 @@
           <td th:text="${webtextlayout.template}">Template</td>
           <td th:text="${webtextlayout.titletemplate}">Title Template</td>
           <td>
-            <button type="button" class="btn btn-primary" th:href="@{/edit/{id}(id=${webtextlayout.id})}">edit</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              Edit
+            </button>
 
-            <!--
-            open edit modal
-            -->
-            <div class="modal" th:id="${webtextlayout.id}">
-              <div class="modal-dialog" role="document">
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title">Modal title</h5>
+                    <h5 class="modal-title" id="headertitle" th:text="${webtextlayout.framename}">Modal title</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p>Modal body text goes here.</p>
+                    <!--
+                           <form action="#" th:action="@{/students/update/{id}(id=${student.id})}" th:object="${student}" method="post">
+                    -->
+                      <form action="#" th:action="@{/edit/crudlist}" th:object="${webtextlayout}" method="post">
+
+                        <div class="form-group col-md-12">
+                          <label class="label label-default">Framename</label>
+                          <input type="text" th:value="${webtextlayout.framename}" class="form-control" id="framename" placeholder="Framename">
+
+                          <label class="label label-default">de</label>
+                          <input type="text" th:value="${webtextlayout.de}" class="form-control" id="de" placeholder="Framename">
+
+                          <label class="label label-default">eng</label>
+                          <input type="text" th:value="${webtextlayout.eng}" class="form-control" id="eng" placeholder="Framename">
+
+                          <label class="label label-default">fr</label>
+                          <input type="text" th:value="${webtextlayout.fr}" class="form-control" id="fr" placeholder="Framename">
+
+                          <label class="label label-default">ESP</label>
+                          <input type="text" th:value="${webtextlayout.esp}" class="form-control" id="esp" placeholder="Framename">
+
+                          <label class="label label-default">it</label>
+                          <input type="text" th:value="${webtextlayout.it}" class="form-control" id="it" placeholder="Framename">
+
+                          <label class="label label-default">tr</label>
+                          <input type="text" th:value="${webtextlayout.tr}" class="form-control" id="tr" placeholder="Framename">
+
+
+                          <label class="label label-default">bindto</label>
+                          <input type="text" th:value="${webtextlayout.bindto}" class="form-control" id="bindto" placeholder="Framename">
+
+                          <label class="label label-default">comp_name</label>
+                          <input type="text" th:value="${webtextlayout.comp_name}" class="form-control" id="comp_name" placeholder="Framename">
+
+                        </div>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </form>
+
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
                   </div>
                 </div>
               </div>
             </div>
+
           </td>
-
-
         </tr>
       </tbody>
     </table>

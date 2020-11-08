@@ -13,10 +13,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add free version of front-awesome to the project and html fix errors">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add gitatribute for java projects">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/grapesjs/grapesjs-plugin-export.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,15 +63,19 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="h2" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="15" />
-    <property name="RequestMappingsPanelWidth1" value="15" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/fontawesome/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/grapesjs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -81,38 +89,27 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/src/main/resources/static" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/fontawesome/css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/grapesjs" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/fontawesome/css" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/img" />
       <recent name="$PROJECT_DIR$/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/templates/small-business/vendor/bootstrap/js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/static/fontawesome/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.static.fontawesome.css in demo_websitebuilder">
-    <configuration name="static.fontawesome.css in demo_websitebuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo_websitebuilder" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="static.fontawesome.css.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="static.fontawesome.css" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Spring Boot.DemoWebsitebuilderApplication">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://github.com/demogitjava/demo_websitebuilder.git/src/main/resources/templates/index.html">
+      <method v="2" />
     </configuration>
     <configuration name="DemoWebsitebuilderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo_websitebuilder" />
@@ -123,7 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.static.fontawesome.css in demo_websitebuilder" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +159,10 @@
       <workItem from="1602251026288" duration="6828000" />
       <workItem from="1602353809967" duration="1331000" />
       <workItem from="1604324398678" duration="1860000" />
-      <workItem from="1604476233353" duration="12398000" />
+      <workItem from="1604476233353" duration="23953000" />
+      <workItem from="1604671993328" duration="13511000" />
+      <workItem from="1604765381328" duration="5575000" />
+      <workItem from="1604830128805" duration="1341000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -213,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604497938431</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add gitatribute for java projects">
+      <created>1604507245933</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604507245933</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +248,8 @@
     <MESSAGE value="load grapesjs Thymeleaf, and Spring Boot" />
     <MESSAGE value="disable hsts header in spring boot config security" />
     <MESSAGE value="add free version of front-awesome to the project and html fix errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="add free version of front-awesome to the project and html fix errors" />
+    <MESSAGE value="add gitatribute for java projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitatribute for java projects" />
   </component>
   <component name="WindowStateProjectService">
     <state x="669" y="222" width="1104" height="506" key="#Deployment" timestamp="1598076576842">
@@ -270,11 +278,11 @@
     </state>
     <state x="1831" y="460" width="788" height="405" key="#Web_Browsers/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598706012322" />
     <state x="514" y="642" width="472" height="405" key="#Web_Browsers/65.24.1855.1056@65.24.1855.1056" timestamp="1601239295490" />
-    <state x="465" y="232" width="1126" height="776" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604324491540">
+    <state x="341" y="113" width="1126" height="776" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604568614792">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1530" y="308" width="1084" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598706381002" />
-    <state x="465" y="232" width="1126" height="776" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1604324491540" />
+    <state x="341" y="113" width="1126" height="776" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1604568614792" />
     <state x="593" y="310" width="582" height="645" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1601543534475">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -293,11 +301,11 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="171" y="180" width="1613" height="828" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1604495548060" />
-    <state x="904" y="52" width="424" height="1028" key="FileChooserDialogImpl" timestamp="1604477493647">
+    <state x="843" y="64" width="744" height="874" key="FileChooserDialogImpl" timestamp="1604568504490">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="2221" y="237" width="424" height="700" key="FileChooserDialogImpl/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598706901457" />
-    <state x="904" y="52" width="424" height="1028" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1604477493647" />
+    <state x="843" y="64" width="744" height="874" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1604568504490" />
     <state x="668" y="495" key="Github.CreateGistDialog" timestamp="1598031536759">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -306,46 +314,46 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="543" y="338" width="706" height="212" key="Github.ShareDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1598030128935" />
-    <state width="1104" height="396" key="GridCell.Tab.0.bottom" timestamp="1604497032816">
+    <state width="884" height="296" key="GridCell.Tab.0.bottom" timestamp="1604830605313">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.bottom/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507487" />
-    <state width="1104" height="396" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1604497032816" />
-    <state width="1104" height="396" key="GridCell.Tab.0.center" timestamp="1604497032814">
+    <state width="884" height="296" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605313" />
+    <state width="884" height="296" key="GridCell.Tab.0.center" timestamp="1604830605311">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.center/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507483" />
-    <state width="1104" height="396" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1604497032814" />
-    <state width="1104" height="396" key="GridCell.Tab.0.left" timestamp="1604497032811">
+    <state width="884" height="296" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605311" />
+    <state width="884" height="296" key="GridCell.Tab.0.left" timestamp="1604830605309">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.left/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507482" />
-    <state width="1104" height="396" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1604497032811" />
-    <state width="1104" height="396" key="GridCell.Tab.0.right" timestamp="1604497032815">
+    <state width="884" height="296" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605309" />
+    <state width="884" height="296" key="GridCell.Tab.0.right" timestamp="1604830605312">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.right/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507483" />
-    <state width="1104" height="396" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1604497032815" />
-    <state width="1104" height="396" key="GridCell.Tab.1.bottom" timestamp="1604497032831">
+    <state width="884" height="296" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605312" />
+    <state width="884" height="296" key="GridCell.Tab.1.bottom" timestamp="1604830605317">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.bottom/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1104" height="396" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1604497032831" />
-    <state width="1104" height="396" key="GridCell.Tab.1.center" timestamp="1604497032819">
+    <state width="884" height="296" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605317" />
+    <state width="884" height="296" key="GridCell.Tab.1.center" timestamp="1604830605315">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.center/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1104" height="396" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1604497032819" />
-    <state width="1104" height="396" key="GridCell.Tab.1.left" timestamp="1604497032817">
+    <state width="884" height="296" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605315" />
+    <state width="884" height="296" key="GridCell.Tab.1.left" timestamp="1604830605314">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.left/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1104" height="396" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1604497032817" />
-    <state width="1104" height="396" key="GridCell.Tab.1.right" timestamp="1604497032821">
+    <state width="884" height="296" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605314" />
+    <state width="884" height="296" key="GridCell.Tab.1.right" timestamp="1604830605316">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.right/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1104" height="396" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1604497032821" />
+    <state width="884" height="296" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1604830605316" />
     <state width="1021" height="274" key="GridCell.Tab.2.bottom" timestamp="1601665605908">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -374,16 +382,20 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2296" y="292" width="924" height="682" key="Maven.ArtifactSearchDialog/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598706692958" />
-    <state x="327" y="168" width="1155" height="728" key="SettingsEditor" timestamp="1601541567255">
+    <state x="390" y="324" width="1155" height="728" key="SettingsEditor" timestamp="1604831567515">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1763" y="258" width="1320" height="730" key="SettingsEditor/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598707469641" />
-    <state x="327" y="168" width="1155" height="728" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1601541567255" />
-    <state x="663" y="376" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1604497951843">
+    <state x="390" y="324" width="1155" height="728" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1604831567515" />
+    <state x="682" y="198" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1604507252008">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1985" y="196" key="Vcs.Push.Dialog.v2/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709912844" />
-    <state x="663" y="376" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1604497951843" />
+    <state x="682" y="198" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1604507252008" />
+    <state x="570" y="388" width="984" height="515" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604568791715">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="570" y="388" width="984" height="515" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/65.24.1855.1056@65.24.1855.1056" timestamp="1604568791715" />
     <state x="811" y="290" width="562" height="536" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1598073961367">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -405,10 +417,14 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="641" y="387" width="550" height="375" key="jetbrains.nodejs.interpreters-dialog/65.24.1855.1056@65.24.1855.1056" timestamp="1601206317895" />
-    <state x="529" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1602323930602">
+    <state x="721" y="284" width="672" height="677" key="run.anything.popup" timestamp="1604830885223">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="529" y="325" width="672" height="678" key="search.everywhere.popup/65.24.1855.1056@65.24.1855.1056" timestamp="1602323930602" />
+    <state x="721" y="284" width="672" height="677" key="run.anything.popup/65.24.1855.1056@65.24.1855.1056" timestamp="1604830885223" />
+    <state x="529" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1604651148422">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="529" y="325" width="672" height="678" key="search.everywhere.popup/65.24.1855.1056@65.24.1855.1056" timestamp="1604651148422" />
     <state x="568" y="195" width="910" height="767" key="svn4idea.diff.options" timestamp="1598076472238">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -421,6 +437,11 @@
           <url>file://$PROJECT_DIR$/src/main/resources/static/js/grapesjs-plugin-forms.min.js</url>
           <line>46</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
