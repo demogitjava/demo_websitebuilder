@@ -14,14 +14,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit readme.md">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/dao/Dao_DemoPagePreview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/service/DemoPageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/config/SpringSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/config/SpringSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/DemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/css/small-business.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/startbootstrap-small-business/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,7 +121,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/grapesjs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -84,26 +134,29 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/src/main/resources/static" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/dao" />
+      <recent name="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/service" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/grapesjs" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/fontawesome/css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/static/fontawesome/css" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/static/grapesjs" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/fontawesome/css" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/img" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static" />
-    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DemoWebsitebuilderApplication">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://github.com/demogitjava/demo_websitebuilder.git/src/main/resources/templates/startbootstrap-small-business/index.html">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://github.com/demogitjava/demo_websitebuilder.git/src/main/resources/templates/index.html">
       <method v="2" />
     </configuration>
@@ -116,6 +169,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -158,7 +212,12 @@
       <workItem from="1604476233353" duration="23953000" />
       <workItem from="1604671993328" duration="13511000" />
       <workItem from="1604765381328" duration="5575000" />
-      <workItem from="1604830128805" duration="6516000" />
+      <workItem from="1604830128805" duration="23487000" />
+      <workItem from="1604907359293" duration="25912000" />
+      <workItem from="1605100531992" duration="23588000" />
+      <workItem from="1605184119121" duration="10754000" />
+      <workItem from="1605275337207" duration="11127000" />
+      <workItem from="1605377350165" duration="2434000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -251,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604835911675</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="edit readme.md">
+      <created>1604836959831</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604836959831</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,20 +368,25 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="585" y="444" width="673" height="262" key="#Prettier/65.24.1855.1056@65.24.1855.1056" timestamp="1601206318821" />
-    <state x="1851" y="119" width="1024" height="815" key="#Project_Structure" timestamp="1598690766830">
-      <screen x="1366" y="0" width="1920" height="1080" />
+    <state x="534" y="168" width="1024" height="815" key="#Project_Structure" timestamp="1605113602460">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1851" y="119" width="1024" height="815" key="#Project_Structure/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598690766830" />
+    <state x="534" y="168" key="#Project_Structure/65.24.1855.1056@65.24.1855.1056" timestamp="1605113602460" />
     <state x="514" y="642" width="472" height="405" key="#Web_Browsers" timestamp="1601239295490">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1831" y="460" width="788" height="405" key="#Web_Browsers/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598706012322" />
     <state x="514" y="642" width="472" height="405" key="#Web_Browsers/65.24.1855.1056@65.24.1855.1056" timestamp="1601239295490" />
-    <state x="341" y="113" width="1126" height="776" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604568614792">
+    <state x="579" y="267" width="1126" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605295417620">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1530" y="308" width="1084" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598706381002" />
-    <state x="341" y="113" width="1126" height="776" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1604568614792" />
+    <state x="579" y="267" width="1126" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1605295417620" />
+    <state x="750" y="268" width="374" height="596" key="#com.intellij.ide.util.MemberChooser" timestamp="1605119081913">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="750" y="268" width="374" height="596" key="#com.intellij.ide.util.MemberChooser/65.24.1855.1056@65.24.1855.1056" timestamp="1605119081913" />
     <state x="593" y="310" width="582" height="645" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1601543534475">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -330,15 +401,15 @@
     </state>
     <state x="1948" y="139" key="CommitChangelistDialog2/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598710239011" />
     <state x="597" y="124" width="935" height="871" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1601668868679" />
-    <state x="171" y="180" width="1613" height="828" key="DiffContextDialog" timestamp="1604495548060">
+    <state x="171" y="252" width="1613" height="828" key="DiffContextDialog" timestamp="1605343694067">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="171" y="180" width="1613" height="828" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1604495548060" />
-    <state x="843" y="64" width="744" height="874" key="FileChooserDialogImpl" timestamp="1604568504490">
+    <state x="171" y="252" width="1613" height="828" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1605343694067" />
+    <state x="843" y="176" width="744" height="874" key="FileChooserDialogImpl" timestamp="1605184081402">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="2221" y="237" width="424" height="700" key="FileChooserDialogImpl/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598706901457" />
-    <state x="843" y="64" width="744" height="874" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1604568504490" />
+    <state x="843" y="176" width="744" height="874" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1605184081402" />
     <state x="668" y="495" key="Github.CreateGistDialog" timestamp="1598031536759">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -347,46 +418,46 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="543" y="338" width="706" height="212" key="Github.ShareDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1598030128935" />
-    <state width="1422" height="411" key="GridCell.Tab.0.bottom" timestamp="1604834599697">
+    <state width="1678" height="553" key="GridCell.Tab.0.bottom" timestamp="1605379739145">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.bottom/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507487" />
-    <state width="1422" height="411" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599697" />
-    <state width="1422" height="411" key="GridCell.Tab.0.center" timestamp="1604834599691">
+    <state width="1678" height="553" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1605379739145" />
+    <state width="1678" height="553" key="GridCell.Tab.0.center" timestamp="1605379739140">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.center/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507483" />
-    <state width="1422" height="411" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599691" />
-    <state width="1422" height="411" key="GridCell.Tab.0.left" timestamp="1604834599690">
+    <state width="1678" height="553" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1605379739140" />
+    <state width="1678" height="553" key="GridCell.Tab.0.left" timestamp="1605379739117">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.left/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507482" />
-    <state width="1422" height="411" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599690" />
-    <state width="1422" height="411" key="GridCell.Tab.0.right" timestamp="1604834599693">
+    <state width="1678" height="553" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1605379739117" />
+    <state width="1678" height="553" key="GridCell.Tab.0.right" timestamp="1605379739142">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.right/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507483" />
-    <state width="1422" height="411" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599693" />
-    <state width="1422" height="411" key="GridCell.Tab.1.bottom" timestamp="1604834599701">
+    <state width="1678" height="553" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1605379739142" />
+    <state width="1678" height="553" key="GridCell.Tab.1.bottom" timestamp="1605379739159">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.bottom/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1422" height="411" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599701" />
-    <state width="1422" height="411" key="GridCell.Tab.1.center" timestamp="1604834599699">
+    <state width="1678" height="553" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1605379739159" />
+    <state width="1678" height="553" key="GridCell.Tab.1.center" timestamp="1605379739151">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.center/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1422" height="411" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599699" />
-    <state width="1422" height="411" key="GridCell.Tab.1.left" timestamp="1604834599698">
+    <state width="1678" height="553" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1605379739151" />
+    <state width="1678" height="553" key="GridCell.Tab.1.left" timestamp="1605379739148">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.left/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1422" height="411" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599698" />
-    <state width="1422" height="411" key="GridCell.Tab.1.right" timestamp="1604834599700">
+    <state width="1678" height="553" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1605379739148" />
+    <state width="1678" height="553" key="GridCell.Tab.1.right" timestamp="1605379739156">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.right/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1422" height="411" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1604834599700" />
+    <state width="1678" height="553" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1605379739156" />
     <state width="1021" height="274" key="GridCell.Tab.2.bottom" timestamp="1601665605908">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -415,16 +486,16 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2296" y="292" width="924" height="682" key="Maven.ArtifactSearchDialog/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598706692958" />
-    <state x="390" y="324" width="1155" height="728" key="SettingsEditor" timestamp="1604831567515">
+    <state x="417" y="350" width="1155" height="730" key="SettingsEditor" timestamp="1605113673519">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1763" y="258" width="1320" height="730" key="SettingsEditor/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598707469641" />
-    <state x="390" y="324" width="1155" height="728" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1604831567515" />
-    <state x="682" y="338" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1604835917601">
+    <state x="417" y="350" width="1155" height="730" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1605113673519" />
+    <state x="682" y="366" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1604836962719">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1985" y="196" key="Vcs.Push.Dialog.v2/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709912844" />
-    <state x="682" y="338" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1604835917601" />
+    <state x="682" y="366" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1604836962719" />
     <state x="570" y="388" width="984" height="515" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604568791715">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -472,9 +543,19 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/DemoController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/config/MvcConfig.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="2" />
+          <line>56</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
