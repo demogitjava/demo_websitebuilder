@@ -13,14 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit index.html page input fields">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/config/MvcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo.html" afterDir="false" />
-    </list>
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add demo MVC Spring Boot Controller&#10;to preview page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +174,7 @@
       <workItem from="1605431970560" duration="8539000" />
       <workItem from="1605452694946" duration="1823000" />
       <workItem from="1605454545505" duration="104000" />
-      <workItem from="1605454717268" duration="2354000" />
+      <workItem from="1605454717268" duration="2532000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -295,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605445091529</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add demo MVC Spring Boot Controller&#10;to preview page">
+      <created>1605457211331</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1605457211331</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +328,8 @@
     <MESSAGE value="edit readme.md" />
     <MESSAGE value="add a preview page with a second controller to project." />
     <MESSAGE value="edit index.html page input fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit index.html page input fields" />
+    <MESSAGE value="add demo MVC Spring Boot Controller&#10;to preview page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add demo MVC Spring Boot Controller&#10;to preview page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="669" y="222" width="1104" height="506" key="#Deployment" timestamp="1598076576842">
