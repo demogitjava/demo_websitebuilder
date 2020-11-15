@@ -13,11 +13,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add a preview page with a second controller to project.">
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit index.html page input fields">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/config/MvcConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/DemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/grapesjs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -101,10 +103,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/grapesjs" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/dao" />
       <recent name="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/service" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/grapesjs" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/fontawesome/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -176,7 +178,10 @@
       <workItem from="1605184119121" duration="10754000" />
       <workItem from="1605275337207" duration="11127000" />
       <workItem from="1605377350165" duration="2788000" />
-      <workItem from="1605431970560" duration="4280000" />
+      <workItem from="1605431970560" duration="8539000" />
+      <workItem from="1605452694946" duration="1823000" />
+      <workItem from="1605454545505" duration="104000" />
+      <workItem from="1605454717268" duration="2354000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -283,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605382748525</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="edit index.html page input fields">
+      <created>1605445091528</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605445091529</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +327,8 @@
     <MESSAGE value="add to pom.xml remote pluginurl https://repo.maven.apache.org/maven2" />
     <MESSAGE value="edit readme.md" />
     <MESSAGE value="add a preview page with a second controller to project." />
-    <option name="LAST_COMMIT_MESSAGE" value="add a preview page with a second controller to project." />
+    <MESSAGE value="edit index.html page input fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit index.html page input fields" />
   </component>
   <component name="WindowStateProjectService">
     <state x="669" y="222" width="1104" height="506" key="#Deployment" timestamp="1598076576842">
@@ -368,10 +381,10 @@
     </state>
     <state x="1948" y="139" key="CommitChangelistDialog2/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598710239011" />
     <state x="597" y="124" width="935" height="871" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1601668868679" />
-    <state x="171" y="252" width="1613" height="828" key="DiffContextDialog" timestamp="1605343694067">
+    <state x="171" y="252" width="1613" height="828" key="DiffContextDialog" timestamp="1605457015124">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="171" y="252" width="1613" height="828" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1605343694067" />
+    <state x="171" y="252" width="1613" height="828" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1605457015124" />
     <state x="843" y="176" width="744" height="874" key="FileChooserDialogImpl" timestamp="1605184081402">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -385,46 +398,46 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="543" y="338" width="706" height="212" key="Github.ShareDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1598030128935" />
-    <state width="1678" height="548" key="GridCell.Tab.0.bottom" timestamp="1605382946656">
+    <state width="1009" height="480" key="GridCell.Tab.0.bottom" timestamp="1605456944647">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.bottom/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507487" />
-    <state width="1678" height="548" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1605382946656" />
-    <state width="1678" height="548" key="GridCell.Tab.0.center" timestamp="1605382946653">
+    <state width="1009" height="480" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1605456944647" />
+    <state width="1009" height="480" key="GridCell.Tab.0.center" timestamp="1605456944639">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.center/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507483" />
-    <state width="1678" height="548" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1605382946653" />
-    <state width="1678" height="548" key="GridCell.Tab.0.left" timestamp="1605382946652">
+    <state width="1009" height="480" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1605456944639" />
+    <state width="1009" height="480" key="GridCell.Tab.0.left" timestamp="1605456944638">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.left/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507482" />
-    <state width="1678" height="548" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1605382946652" />
-    <state width="1678" height="548" key="GridCell.Tab.0.right" timestamp="1605382946655">
+    <state width="1009" height="480" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1605456944638" />
+    <state width="1009" height="480" key="GridCell.Tab.0.right" timestamp="1605456944646">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.0.right/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709507483" />
-    <state width="1678" height="548" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1605382946655" />
-    <state width="1678" height="548" key="GridCell.Tab.1.bottom" timestamp="1605382946659">
+    <state width="1009" height="480" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1605456944646" />
+    <state width="1009" height="480" key="GridCell.Tab.1.bottom" timestamp="1605456944655">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.bottom/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1678" height="548" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1605382946659" />
-    <state width="1678" height="548" key="GridCell.Tab.1.center" timestamp="1605382946658">
+    <state width="1009" height="480" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1605456944655" />
+    <state width="1009" height="480" key="GridCell.Tab.1.center" timestamp="1605456944648">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.center/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1678" height="548" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1605382946658" />
-    <state width="1678" height="548" key="GridCell.Tab.1.left" timestamp="1605382946657">
+    <state width="1009" height="480" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1605456944648" />
+    <state width="1009" height="480" key="GridCell.Tab.1.left" timestamp="1605456944647">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.left/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1678" height="548" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1605382946657" />
-    <state width="1678" height="548" key="GridCell.Tab.1.right" timestamp="1605382946659">
+    <state width="1009" height="480" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1605456944647" />
+    <state width="1009" height="480" key="GridCell.Tab.1.right" timestamp="1605456944649">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1447" height="431" key="GridCell.Tab.1.right/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709506533" />
-    <state width="1678" height="548" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1605382946659" />
+    <state width="1009" height="480" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1605456944648" />
     <state width="1021" height="274" key="GridCell.Tab.2.bottom" timestamp="1601665605908">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -458,11 +471,11 @@
     </state>
     <state x="1763" y="258" width="1320" height="730" key="SettingsEditor/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598707469641" />
     <state x="458" y="249" width="1155" height="730" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1605432723138" />
-    <state x="685" y="195" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1605382758352">
+    <state x="685" y="223" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1605445097627">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="1985" y="196" key="Vcs.Push.Dialog.v2/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598709912844" />
-    <state x="685" y="195" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1605382758352" />
+    <state x="685" y="223" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1605445097627" />
     <state x="570" y="388" width="984" height="515" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604568791715">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -476,6 +489,10 @@
     </state>
     <state x="2123" y="496" width="449" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598710019579" />
     <state x="796" y="537" width="443" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/65.24.1855.1056@65.24.1855.1056" timestamp="1601669186168" />
+    <state x="1165" y="132" width="1079" height="609" key="dock-window-1" timestamp="1605456737519">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="1165" y="132" width="1079" height="609" key="dock-window-1/65.24.1855.1056@65.24.1855.1056" timestamp="1605456737519" />
     <state x="668" y="176" width="623" height="783" key="find.popup" timestamp="1601198801843">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -511,13 +528,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/DemoController.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="17" />
+          <line>26</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/config/MvcConfig.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/DemoController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

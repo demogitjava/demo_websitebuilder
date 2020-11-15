@@ -13,12 +13,12 @@ public class DemoController
 
 
     // load default landingpage
-    @GetMapping({"preview", "/"})
-    public ModelAndView mvcdemo() {
+    @GetMapping({"demo", "/"})
+    public ModelAndView demo() {
 
         //model.addAttribute("lgname", plgservice.getMultipagelanguage().getPageLanguageText());
         //model.addAttribute("productList", indexservice.getDaoProduct().getProductsforLandingpage());
-        ModelAndView mv = new ModelAndView("preview");
+        ModelAndView mv = new ModelAndView("demo");
 
 
         //mv.setView("templates/startbootstrap-small-business/index.html");

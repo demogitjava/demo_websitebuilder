@@ -4,11 +4,8 @@ package de.jgsoftware.websitebuilder.controller;
 import de.jgsoftware.websitebuilder.service.IndexService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
-
-import java.util.Locale;
 
 @Controller
 @RequestMapping("/")
@@ -46,11 +43,11 @@ public class IndexPageController {
         return mv;
     }
 
-    @GetMapping("demo")
+    @RequestMapping("/demo")
     public String demopreview()
     {
 
-        return "preview";
+        return "redirect:/demo/";
     }
 
 
