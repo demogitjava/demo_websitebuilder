@@ -43,9 +43,6 @@ public class IndexPageController {
 
         ModelAndView mv = new ModelAndView("editcrudlist");
 
-
-
-
         return mv;
     }
 
@@ -53,7 +50,6 @@ public class IndexPageController {
     public String demopreview()
     {
 
-        // redirect:demo
         return "preview";
     }
 

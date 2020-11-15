@@ -1,8 +1,6 @@
 package de.jgsoftware.websitebuilder.controller;
 
 
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,7 +18,7 @@ public class DemoController
 
         //model.addAttribute("lgname", plgservice.getMultipagelanguage().getPageLanguageText());
         //model.addAttribute("productList", indexservice.getDaoProduct().getProductsforLandingpage());
-        ModelAndView mv = new ModelAndView("demo");
+        ModelAndView mv = new ModelAndView("preview");
 
 
         //mv.setView("templates/startbootstrap-small-business/index.html");
