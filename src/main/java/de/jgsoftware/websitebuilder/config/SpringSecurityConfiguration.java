@@ -70,10 +70,10 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter{
 				.and()
 				.logout()
 				.logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
-				.logoutSuccessUrl("/login")
-				.and()
-				.rememberMe().tokenValiditySeconds(30000).key("keytoken!")
-				.rememberMeParameter("checkRememberMe");
+				.logoutSuccessUrl("/login");
+				//.and()
+				//.rememberMe().tokenValiditySeconds(30000).key("keytoken!")
+				//.rememberMeParameter("checkRememberMe");
 	}
 
 

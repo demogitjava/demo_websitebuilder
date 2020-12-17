@@ -67,7 +67,7 @@ startbootstrap-small-business/index
     <p th:text="${message}"></p>
   </div>
 
-  <script type="application/javascript">
+  <script th:inline="javascript">
 
    let editor = grapesjs.init({
       showOffsets: 1,
@@ -76,20 +76,33 @@ startbootstrap-small-business/index
       height: '100%',
       fromElement: true,
 
+    // plugins: ['grapesjs-blocks-bootstrap4'],
+
+     storageManager: {
+       type: 'indexeddb',
+       // In case of multiple editors on the same page indicate an id to
+       // prevent collisions
+       id: 'some-id',
+     },
+
      plugins: ['grapesjs-blocks-bootstrap4'],
      pluginsOpts: {
        'grapesjs-blocks-bootstrap4': {
-         blocks: {},
-         blockCategories: {},
-         labels: {},
-         gridDevicesPanel: true,
-         formPredefinedActions: [
-           {name: 'Contact', value: '/contact'},
-           {name: 'landing', value: '/landing'},
-         ]
+         blocks: {
+           // ...
+         },
+         blockCategories: {
+           // ...
+         },
+         labels: {
+           // ...
+         },
+         // ...
        }
      },
-      canvas: {
+
+     canvas:
+             {
        styles: [
                // <link th:href="@{/bootstrap4/css//bootstrap.css}" rel="stylesheet" />
          '/bootstrap4/css/bootstrap.css',
@@ -103,11 +116,13 @@ startbootstrap-small-business/index
          '/bootstrap4/js/bootstrap.js',
          '/bootstrap4/js/bootstrap.bundle.js',
          '/grapesjs/ajaxable.min.js',
+         '/grapesjs/grapesjs-indexeddb.js',
 
        ],
         plugins: [
           'gjs-preset-webpage',
           'grapesjs-blocks-bootstrap4',
+          'grapesjs-indexeddb'
 
         ],
      }
