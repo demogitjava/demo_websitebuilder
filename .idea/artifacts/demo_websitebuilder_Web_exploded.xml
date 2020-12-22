@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="demo_websitebuilder:Web exploded">
+    <output-path>$PROJECT_DIR$/target/artifacts/demo_websitebuilder_Web_exploded</output-path>
+    <root id="archive" name="demo_websitebuilder_Web exploded.jar">
+      <element id="javaee-facet-resources" facet="demo_websitebuilder/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="demo_websitebuilder" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

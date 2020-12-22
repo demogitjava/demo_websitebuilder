@@ -8,11 +8,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.security.web.firewall.DefaultHttpFirewall;
-import org.springframework.security.web.firewall.HttpFirewall;
-import org.springframework.security.web.firewall.StrictHttpFirewall;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
-import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 
 import javax.sql.DataSource;
 
@@ -20,6 +16,10 @@ import javax.sql.DataSource;
 @EnableWebSecurity
 public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter{
 
+
+
+	@Autowired
+	BCryptPasswordEncoder passwordEncoder;
 
 	@Autowired
 	private DataSource dataSource;
@@ -29,40 +29,36 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter{
 		authBuilder.jdbcAuthentication()
 				.dataSource(dataSource)
 				.passwordEncoder(new BCryptPasswordEncoder())
-				.usersByUsernameQuery("select username, password, enabled from users where username=?")
 				.authoritiesByUsernameQuery("select username, role from users where username=?")
+				.usersByUsernameQuery("select username, password, enabled from users where username=?")
+
 		;
+	}
+
+	@Bean
+	public BCryptPasswordEncoder passwordEncoder(){
+		return new BCryptPasswordEncoder();
 	}
 
 
 
 	@Override
-	protected void configure(HttpSecurity http) throws Exception {
+	protected void configure(HttpSecurity http) throws Exception
+	{
 		http
-
-				/**
-				 *  disable
-				 *  HTTP Strict Transport Security (HSTS)
-				 */
-				.headers()
-				.frameOptions().sameOrigin()
-				.httpStrictTransportSecurity().disable()
-				.and()
-
 				.authorizeRequests()
 				.antMatchers(
 						"/index.html",
-						"/static/**",
-						"/templates/**",
-						"/resources/**"
+						"/signup.html",
+						"/login.html",
+						"/h2/**",
+						"/resources/**",
+						"/static/**,").permitAll()
 
-				).permitAll()
+				.antMatchers("/profile/**").access("hasRole('ROLE_USER')")
+				.antMatchers("/admin/**").access("hasRole('ROLE_ADMIN')")
+				.antMatchers("/manager/**").access("hasRole('ROLE_MANAGER')")
 				.and()
-
-
-				/**
-				 *  Login
-				 */
 				.formLogin()
 				.loginPage("/login")
 				.usernameParameter("email")
@@ -70,24 +66,21 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter{
 				.and()
 				.logout()
 				.logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
-				.logoutSuccessUrl("/login");
-				//.and()
+				.logoutSuccessUrl("/login")
+				.and()
 				//.rememberMe().tokenValiditySeconds(30000).key("keytoken!")
 				//.rememberMeParameter("checkRememberMe");
+				.rememberMe().disable();
+
+
+
 	}
 
 
 
 
-	@Bean
-	public BCryptPasswordEncoder passwordEncoder(){
-		return new BCryptPasswordEncoder();
-	}
 
-	@Bean
-	public HttpFirewall defaultHttpFirewall() {
-		return new DefaultHttpFirewall();
-	}
+
 
 
 

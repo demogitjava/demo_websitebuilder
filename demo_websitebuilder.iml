@@ -7,7 +7,7 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="demo_websitebuilder" />
-          <factory-entry name="entityManagerFactory" />
+          <factory-entry name="entityManagerFactory" value="9aaa377a-6150-41ee-b7a1-621c475a4753" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>
@@ -25,7 +25,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">

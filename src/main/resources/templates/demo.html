@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" th:lang="${lang}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,25 +21,28 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <a class="navbar-brand" href="#" th:text="${webtextcomp[0].de}"></a> <!-- Company Name -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="#" th:text="${webtextcomp[1].de}">  <!-- Home -->
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="/about" th:text="${webtextcomp[2].de}"></a>  <!-- about -->
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="/service" th:text="${webtextcomp[3].de}"></a>  <!-- Service -->
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="/contact" th:text="${webtextcomp[4].de}"></a>  <!-- Contact -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/login" th:text="${webtextcomp[5].de}"></a>  <!-- Login -->
           </li>
         </ul>
       </div>

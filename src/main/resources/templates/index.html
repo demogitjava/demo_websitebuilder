@@ -1,296 +1,320 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="de">
-  <head>
-    <meta charset="UTF-8">
-    <!--
-    <title th:text="@{page-title}"></title> -->
-    <title>Demo WebSiteBuilder</title>
+<head>
+  <meta charset="UTF-8">
+  <!--
+  <title th:text="@{page-title}"></title> -->
+  <title>Demo WebSiteBuilder</title>
 
-    <link th:href="@{/bootstrap4/css/bootstrap.css}" rel="stylesheet" />
-    <link th:href="@{/grapesjs/css/grapes.min.css}" rel="stylesheet" />
-    <!--
-    https://fontawesome.com
-    -->
-    <link th:href="@{/fontawesome/css/fontawesome.css}" rel="stylesheet" />
-    <link th:href="@{/webpagepresent/grapesjs-preset-webpage.min.css}" rel="stylesheet" />
+  <link th:href="@{/bootstrap4/css/bootstrap.css}" rel="stylesheet" />
+  <link th:href="@{/grapesjs/css/grapes.min.css}" rel="stylesheet" />
+  <!--
+  https://fontawesome.com
+  -->
+  <link th:href="@{/fontawesome/css/fontawesome.css}" rel="stylesheet" />
+  <link th:href="@{/webpagepresent/grapesjs-preset-webpage.min.css}" rel="stylesheet" />
 
-    <script th:src="@{/jquery/jquery-3.5.1.min.js}"></script>
-    <script th:src="@{/bootstrap4/js/bootstrap.js}"></script>
-    <script th:src="@{/popper.min.js}"></script>
+  <script th:src="@{/jquery/jquery-3.5.1.min.js}"></script>
+  <script th:src="@{/bootstrap4/js/bootstrap.js}"></script>
+  <script th:src="@{/popper.min.js}"></script>
 
-    <script th:src="@{/grapesjs/grapes.min.js}"></script>
-    <script th:src="@{/webpagepresent/grapesjs-blocks-bootstrap4.min.js}"></script>
-    <script th:src="@{/grapesjs/grapesjs-indexeddb.min.js}"></script>
-    <script th:src="@{/grapesjs/ajaxable.min.js}"></script>
-
-    <!--
-          implement start-bootstrap
-          startbootstrap.small-business lib starter template
-    -->
-    <link th:href="@{/vendor/bootstrap/css/bootstrap.css}" rel="stylesheet" />
-    <link th:href="@{/vendor/bootstrap/css/bootstrap-grid.css}" rel="stylesheet" />
-    <link th:href="@{/vendor/bootstrap/css/bootstrap-reboot.css}" rel="stylesheet" />
-
-    <script th:src="@{/vendor/bootstrap/js/bootstrap.bundle.js}"></script>
-    <script th:src="@{/vendor/bootstrap/js/bootstrap.js}"></script>
-
-    <!--
-    <script th:src="@{/vendor/jquery/jquery.js}"></script>
-    -->
-
-    <style>
-
-      body,
-      html
-      {
-
-        padding: 0;
-        margin: 0;
-        height: 100%;
-
-      }
-    </style>
-
-  </head>
-
-  <body>
-
-
-  <p th:text="${message}"></p>
-
+  <script th:src="@{/grapesjs/grapes.min.js}"></script>
+  <script th:src="@{/webpagepresent/grapesjs-blocks-bootstrap4.min.js}"></script>
+  <script th:src="@{/grapesjs/grapesjs-indexeddb.min.js}"></script>
+  <script th:src="@{/grapesjs/ajaxable.min.js}"></script>
 
   <!--
-startbootstrap-small-business/index
+        implement start-bootstrap
+        startbootstrap.small-business lib starter template
+  -->
+  <link th:href="@{/vendor/bootstrap/css/bootstrap.css}" rel="stylesheet" />
+  <link th:href="@{/vendor/bootstrap/css/bootstrap-grid.css}" rel="stylesheet" />
+  <link th:href="@{/vendor/bootstrap/css/bootstrap-reboot.css}" rel="stylesheet" />
+
+  <script th:src="@{/vendor/bootstrap/js/bootstrap.bundle.js}"></script>
+  <script th:src="@{/vendor/bootstrap/js/bootstrap.js}"></script>
+
+  <!--
+  <script th:src="@{/vendor/jquery/jquery.js}"></script>
   -->
 
-  <div id="gjs" th:include="demo.html">
-    <p th:text="${message}"></p>
-  </div>
+  <style>
 
-  <script th:inline="javascript">
+    body,
+    html
+    {
 
-   let editor = grapesjs.init({
-      showOffsets: 1,
-      noticeOnUnload: 0,
-      container: '#gjs',
-      height: '100%',
-      fromElement: true,
+      padding: 0;
+      margin: 0;
+      height: 100%;
 
-    // plugins: ['grapesjs-blocks-bootstrap4'],
+    }
+  </style>
 
-     storageManager: {
-       type: 'indexeddb',
-       // In case of multiple editors on the same page indicate an id to
-       // prevent collisions
-       id: 'some-id',
-     },
+</head>
 
-     plugins: ['grapesjs-blocks-bootstrap4'],
-     pluginsOpts: {
-       'grapesjs-blocks-bootstrap4': {
-         blocks: {
-           // ...
-         },
-         blockCategories: {
-           // ...
-         },
-         labels: {
-           // ...
-         },
-         // ...
-       }
-     },
-
-     canvas:
-             {
-       styles: [
-               // <link th:href="@{/bootstrap4/css//bootstrap.css}" rel="stylesheet" />
-         '/bootstrap4/css/bootstrap.css',
-         '/fontawesome/css/fontawesome.css',
-         '/grapesjs/css/grapes.min.css',
-       ],
-       scripts: [
-         '/grapesjs/grapes.min.js',
-         '/jquery/jquery-3.5.1.min.js',
-         '/popper.min.js',
-         '/bootstrap4/js/bootstrap.js',
-         '/bootstrap4/js/bootstrap.bundle.js',
-         '/grapesjs/ajaxable.min.js',
-         '/grapesjs/grapesjs-indexeddb.js',
-
-       ],
-        plugins: [
-          'gjs-preset-webpage',
-          'grapesjs-blocks-bootstrap4',
-          'grapesjs-indexeddb'
-
-        ],
-     }
-
-   });
-
-   let panelManager = editor.Panels;
-   panelManager.addButton('options', {
-     id        : 'clearCanvas',
-     className : 'fa fa-trash',
-     command   : e => e.runCommand('core:canvas-clear'),
-     active    : false
-   });
-
-
-   editor.BlockManager.add('Container',
-           {
-             category: 'Bootstrap4',
-             label: '<h1><i class="fa fa-th fa-lg"></i></h1>Container',
-             content: '<div class="container-fluid">' +
-                     '<div class="row">' +
-                     '<div class="col-sm-6"><p>row1</p></div>' +
-                     '<div class="col-sm-6"><p>row2</p></div>' +
-                     '<div class="col-sm-6"><p>row1</p></div>' +
-                     '<div class="col-sm-6"><p>row2</p></div>' +
-                     '<div class="col-sm-6"><p>row1</p></div>' +
-                     '<div class="col-sm-6"><p>row2</p></div>' +
-                     '<div class="col-sm-6"><p>row1</p></div>' +
-                     '<div class="col-sm-6"><p>row2</p></div>' +
-                     '</div>' +
-                      '</div>'
-           });
-
-   editor.BlockManager.add('add_Row - 12',
-           {
-             category: 'Bootstrap4',
-             label: '<h1><i class="fa fa-th fa-lg"></i></h1>Row - 12  5/5',
-             content: '<div class="row">' +
-                     '<div class="col-sm-6"><p>row1</p></div>' +
-                     '<div class="col-sm-6"><p>row2</p></div>' +
-                     '</div>',
-           });
-
-   editor.BlockManager.add('TestMessage',
-           {
-             category: 'Bootstrap4',
-             label: '<h1><i class="fa fa-th fa-lg"></i></h1> dynamic test',
-             content: '<p th:text="${message}"></p>',
-
-           });
-
-   editor.getConfig().showDevices = false;
-   window.editor = editor;
-  </script>
+<body>
 
 
 
-  <div id="tablecrud">
 
-    <table class="table table-striped">
-      <thead>
-          <tr>
-            <th>id</th>
-            <th>Framename</th>
-            <th>German</th>
-            <th>English</th>
-            <th>French</th>
-            <th>Spanish</th>
-            <th>Italian</th>
-            <th>Turkish</th>
-            <th>bindto</th>
-            <th>Template</th>
-            <th>Title Template</th>
-            <th>Edit</th>
-          </tr>
-      </thead>
-      <tbody>
-        <tr th:each="webtextlayout : ${listtemplate}">
-          <td th:text="${webtextlayout.id}">id</td>
-          <td th:text="${webtextlayout.framename}">Framename</td>
-          <td th:text="${webtextlayout.de}">German</td>
-          <td th:text="${webtextlayout.eng}">English</td>
-          <td th:text="${webtextlayout.fr}">French</td>
-          <td th:text="${webtextlayout.esp}">Spanish</td>
-          <td th:text="${webtextlayout.it}">Italian</td>
-          <td th:text="${webtextlayout.tr}">Turkish</td>
-          <td th:text="${webtextlayout.bindto}">bindto</td>
-          <td th:text="${webtextlayout.template}">Template</td>
-          <td th:text="${webtextlayout.titletemplate}">Title Template</td>
-          <td>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-              Edit
-            </button>
+<ul class="breadcrumb">
+  <li><a href="#">Home</a> <span class="divider">/</span></li>
+  <li class="active">Editor</li>
+</ul>
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="headertitle" th:text="${webtextlayout.framename}">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
+
+
+
+
+<div id="gjs" th:include="demo.html">
+
+
+</div>
+
+<script type="text/javascript">
+
+  let editor = grapesjs.init({
+    showOffsets: 1,
+    noticeOnUnload: 0,
+    container: '#gjs',
+    height: '100%',
+    fromElement: true,
+
+
+    plugins: ['grapesjs-blocks-bootstrap4'],
+    pluginsOpts: {
+      'grapesjs-blocks-bootstrap4': {
+        blocks: {
+          // ...
+        },
+        blockCategories: {
+          // ...
+        },
+        labels: {
+          // ...
+        },
+        // ...
+      }
+    },
+
+    canvas:
+            {
+              styles: [
+                // <link th:href="@{/bootstrap4/css//bootstrap.css}" rel="stylesheet" />
+                '/bootstrap4/css/bootstrap.css',
+                '/fontawesome/css/fontawesome.css',
+                '/grapesjs/css/grapes.min.css',
+              ],
+              scripts: [
+                '/jquery/jquery-3.5.1.min.js',
+                '/grapesjs/grapes.min.js',
+                '/popper.min.js',
+                '/bootstrap4/js/bootstrap.js',
+                '/bootstrap4/js/bootstrap.bundle.js',
+                '/grapesjs/ajaxable.min.js',
+                '/grapesjs/grapesjs-indexeddb.js',
+
+              ],
+              plugins: [
+                'gjs-preset-webpage',
+                'grapesjs-blocks-bootstrap4',
+                'grapesjs-indexeddb'
+              ],
+            }
+
+  });
+
+  editor.Panels.addButton
+  ('options',
+          [{
+            id: 'save-db',
+            className: 'fa fa-floppy-o',
+            command: 'save-db',
+            attributes: {title: 'Save DB'}
+          }]
+  );
+
+  // Add the command
+  editor.Commands.add
+  ('save-db',
+          {
+            run: function (editor, sender) {
+              sender && sender.set('active', 0); // turn off the button
+              editor.store();
+
+              var htmldata = editor.getHtml();
+              var cssdata = editor.getCss();
+              console.log(htmldata);
+              console.log(cssdata);
+              $.post("http://cimailer.dev/lets_dragdrop",
+                      {
+                        "html": htmldata,
+                        "css": cssdata
+                      });
+            }
+          });
+
+  editor.BlockManager.add('Container',
+          {
+            category: 'Bootstrap4 Thymeleaf',
+            label: '<h1><i class="fa fa-th fa-lg"></i></h1>Container',
+            content: '<div class="container-fluid">' +
+                    '<div class="row">' +
+                    '<div class="col-sm-6"><p>row1</p></div>' +
+                    '<div class="col-sm-6"><p>row2</p></div>' +
+                    '<div class="col-sm-6"><p>row1</p></div>' +
+                    '<div class="col-sm-6"><p>row2</p></div>' +
+                    '<div class="col-sm-6"><p>row1</p></div>' +
+                    '<div class="col-sm-6"><p>row2</p></div>' +
+                    '<div class="col-sm-6"><p>row1</p></div>' +
+                    '<div class="col-sm-6"><p>row2</p></div>' +
+                    '</div>' +
+                    '</div>'
+          });
+
+  editor.BlockManager.add('add_Row - 12',
+          {
+            category: 'Bootstrap4 Thymeleaf',
+            label: '<h1><i class="fa fa-th fa-lg"></i></h1>Row - 12  5/5',
+            content: '<div class="row">' +
+                    '<div class="col-sm-6"><p>row1</p></div>' +
+                    '<div class="col-sm-6"><p>row2</p></div>' +
+                    '</div>',
+          });
+
+  editor.BlockManager.add('TestMessage',
+          {
+            category: 'Bootstrap4 Thymeleaf',
+            label: '<h1><i class="fa fa-th fa-lg"></i></h1> dynamic test',
+            content: '<p>${message}</p>',
+
+          });
+
+  editor.getConfig().showDevices = false;
+  window.editor = editor;
+</script>
+
+<div id="tablecrud">
+
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>id</th>
+      <th>Framename</th>
+      <th>German</th>
+      <th>English</th>
+      <th>French</th>
+      <th>Spanish</th>
+      <th>Italian</th>
+      <th>Turkish</th>
+      <th>bindto</th>
+      <th>Template</th>
+      <th>Title Template</th>
+      <th>Edit</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="webtextlayout : ${listtemplate}">
+      <td th:text="${webtextlayout.id}">id</td>
+      <td th:text="${webtextlayout.framename}">Framename</td>
+      <td th:text="${webtextlayout.de}">German</td>
+      <td th:text="${webtextlayout.eng}">English</td>
+      <td th:text="${webtextlayout.fr}">French</td>
+      <td th:text="${webtextlayout.esp}">Spanish</td>
+      <td th:text="${webtextlayout.it}">Italian</td>
+      <td th:text="${webtextlayout.tr}">Turkish</td>
+      <td th:text="${webtextlayout.bindto}">bindto</td>
+      <td th:text="${webtextlayout.template}">Template</td>
+      <td th:text="${webtextlayout.titletemplate}">Title Template</td>
+      <td>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" th:attrappend="data-target=${webtextlayout.id}">
+          Edit
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" role="dialog" th:attrappend="id=${webtextlayout.id}">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="headertitle" th:text="${webtextlayout.framename}">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <!--
+                       <form action="#" th:action="@{/students/update/{id}(id=${student.id})}" th:object="${student}" method="post">
+                -->
+                <form action="#" th:action="@{/edit/crudlist}" th:object="${webtextlayout}" method="post">
+
+                  <div class="form-group col-md-12">
+
+                    <label class="label label-default">ID
+                      <input type="text"  th:value="${webtextlayout.id}" class="form-control" id="id" name="framename" placeholder="id"/>
+                    </label>
+
+                    <label class="label label-default">Framename
+                      <input type="text"  th:value="${webtextlayout.framename}" class="form-control" id="framename" name="framename" placeholder="Framename"/>
+                    </label>
+
+                    <label class="label label-default">de
+                      <input type="text" th:value="${webtextlayout.de}" class="form-control" id="de" placeholder="de"/>
+                    </label>
+
+                    <label class="label label-default">eng
+                      <input type="text" th:value="${webtextlayout.eng}" class="form-control" id="eng" placeholder="eng"/>
+                    </label>
+
+                    <label class="label label-default">fr
+                      <input type="text" th:value="${webtextlayout.fr}" class="form-control" id="fr" placeholder="fr"/>
+                    </label>
+
+                    <label class="label label-default">ESP
+                      <input type="text" th:value="${webtextlayout.esp}" class="form-control" id="esp" placeholder="esp"/>
+                    </label>
+
+                    <label class="label label-default">it
+                      <input type="text" th:value="${webtextlayout.it}" class="form-control" id="it" placeholder="it"/>
+                    </label>
+
+                    <label class="label label-default">tr
+                      <input type="text" th:value="${webtextlayout.tr}" class="form-control" id="tr" placeholder="tr"/>
+                    </label>
+
+                    <label class="label label-default">bindto
+                      <input type="text" th:value="${webtextlayout.bindto}" class="form-control" id="bindto" placeholder="Framename"/>
+                    </label>
+
+                    <label class="label label-default">comp_name
+                      <input type="text" th:value="${webtextlayout.comp_name}" class="form-control" id="comp_name" placeholder="Framename"/>
+                    </label>
+
+
                   </div>
-                  <div class="modal-body">
-                    <!--
-                           <form action="#" th:action="@{/students/update/{id}(id=${student.id})}" th:object="${student}" method="post">
-                    -->
-                      <form action="#" th:action="@{/edit/crudlist}" th:object="${webtextlayout}" method="post">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </form>
 
-                        <div class="form-group col-md-12">
-                          <label class="label label-default">Framename
-                          <input type="text" th:value="${webtextlayout.framename}" class="form-control" id="framename" name="framename" placeholder="Framename"/>
-                          </label>
+              </div>
+              <div class="modal-footer">
 
-                          <label class="label label-default">de
-                          <input type="text" th:value="${webtextlayout.de}" class="form-control" id="de" placeholder="de"/>
-                          </label>
-
-                          <label class="label label-default">eng
-                          <input type="text" th:value="${webtextlayout.eng}" class="form-control" id="eng" placeholder="eng"/>
-                          </label>
-
-                          <label class="label label-default">fr
-                          <input type="text" th:value="${webtextlayout.fr}" class="form-control" id="fr" placeholder="fr"/>
-                          </label>
-
-                          <label class="label label-default">ESP
-                          <input type="text" th:value="${webtextlayout.esp}" class="form-control" id="esp" placeholder="esp"/>
-                          </label>
-
-                          <label class="label label-default">it
-                          <input type="text" th:value="${webtextlayout.it}" class="form-control" id="it" placeholder="it"/>
-                          </label>
-
-                          <label class="label label-default">tr
-                          <input type="text" th:value="${webtextlayout.tr}" class="form-control" id="tr" placeholder="tr"/>
-                          </label>
-
-                          <label class="label label-default">bindto
-                          <input type="text" th:value="${webtextlayout.bindto}" class="form-control" id="bindto" placeholder="Framename"/>
-                          </label>
-
-                          <label class="label label-default">comp_name
-                          <input type="text" th:value="${webtextlayout.comp_name}" class="form-control" id="comp_name" placeholder="Framename"/>
-                          </label>
-
-
-                        </div>
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                      </form>
-
-                  </div>
-                  <div class="modal-footer">
-
-                  </div>
-                </div>
               </div>
             </div>
+          </div>
+        </div>
 
-          </td>
-        </tr>
-      </tbody>
-    </table>
+      </td>
+    </tr>
+    </tbody>
+  </table>
 
 
-  </div>
-  </body>
+</div>
+
+
+
+
+</body>
 </html>
