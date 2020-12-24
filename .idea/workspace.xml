@@ -13,7 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit javascript tag to th:inline" />
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add clear cavas button to grapesjs website builder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_websitebuilder.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +81,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webshop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demodatabase" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -187,7 +190,7 @@
       <workItem from="1608205340472" duration="10823000" />
       <workItem from="1608283818466" duration="32819000" />
       <workItem from="1608452118510" duration="15495000" />
-      <workItem from="1608789914824" duration="255000" />
+      <workItem from="1608789914824" duration="1599000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -315,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608209328391</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add clear cavas button to grapesjs website builder">
+      <created>1608790408292</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608790408292</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +360,8 @@
     <MESSAGE value="edit index.html page input fields" />
     <MESSAGE value="add demo MVC Spring Boot Controller&#10;to preview page" />
     <MESSAGE value="edit javascript tag to th:inline" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit javascript tag to th:inline" />
+    <MESSAGE value="add clear cavas button to grapesjs website builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="add clear cavas button to grapesjs website builder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="847" y="534" width="429" height="192" key="#Assign_Data_Sources" timestamp="1608302515113">
@@ -405,46 +416,46 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="171" y="252" width="1613" height="828" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1608227706557" />
-    <state x="843" y="206" width="744" height="874" key="FileChooserDialogImpl" timestamp="1608452307594">
+    <state x="843" y="206" width="744" height="874" key="FileChooserDialogImpl" timestamp="1608791064889">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="843" y="206" width="744" height="874" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1608452307594" />
+    <state x="843" y="206" width="744" height="874" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1608791064889" />
     <state x="819" y="525" key="Github.CreateGistDialog" timestamp="1608305354700">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="819" y="525" key="Github.CreateGistDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1608305354700" />
-    <state width="1320" height="508" key="GridCell.Tab.0.bottom" timestamp="1608658554078">
+    <state width="1109" height="497" key="GridCell.Tab.0.bottom" timestamp="1608791558966">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1320" height="508" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1608658554078" />
-    <state width="1320" height="508" key="GridCell.Tab.0.center" timestamp="1608658554076">
+    <state width="1109" height="497" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1608791558966" />
+    <state width="1109" height="497" key="GridCell.Tab.0.center" timestamp="1608791558964">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1320" height="508" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1608658554076" />
-    <state width="1320" height="508" key="GridCell.Tab.0.left" timestamp="1608658554076">
+    <state width="1109" height="497" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1608791558964" />
+    <state width="1109" height="497" key="GridCell.Tab.0.left" timestamp="1608791558963">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1320" height="508" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1608658554076" />
-    <state width="1320" height="508" key="GridCell.Tab.0.right" timestamp="1608658554077">
+    <state width="1109" height="497" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1608791558963" />
+    <state width="1109" height="497" key="GridCell.Tab.0.right" timestamp="1608791558965">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1320" height="508" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1608658554077" />
-    <state width="1320" height="508" key="GridCell.Tab.1.bottom" timestamp="1608658554095">
+    <state width="1109" height="497" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1608791558965" />
+    <state width="1109" height="497" key="GridCell.Tab.1.bottom" timestamp="1608791558969">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1320" height="508" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1608658554095" />
-    <state width="1320" height="508" key="GridCell.Tab.1.center" timestamp="1608658554088">
+    <state width="1109" height="497" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1608791558969" />
+    <state width="1109" height="497" key="GridCell.Tab.1.center" timestamp="1608791558967">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1320" height="508" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1608658554088" />
-    <state width="1320" height="508" key="GridCell.Tab.1.left" timestamp="1608658554080">
+    <state width="1109" height="497" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1608791558967" />
+    <state width="1109" height="497" key="GridCell.Tab.1.left" timestamp="1608791558966">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1320" height="508" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1608658554080" />
-    <state width="1320" height="508" key="GridCell.Tab.1.right" timestamp="1608658554095">
+    <state width="1109" height="497" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1608791558966" />
+    <state width="1109" height="497" key="GridCell.Tab.1.right" timestamp="1608791558968">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1320" height="508" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1608658554095" />
+    <state width="1109" height="497" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1608791558968" />
     <state width="1021" height="274" key="GridCell.Tab.2.bottom" timestamp="1601665605908">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -477,10 +488,10 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="458" y="333" width="1155" height="730" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1608452381232" />
-    <state x="685" y="251" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1608209336928">
+    <state x="685" y="279" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1608790419553">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="685" y="251" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1608209336928" />
+    <state x="685" y="279" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1608790419553" />
     <state x="679" y="360" width="494" height="360" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1608301359255">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
