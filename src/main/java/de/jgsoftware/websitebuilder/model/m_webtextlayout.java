@@ -14,35 +14,17 @@ public class m_webtextlayout
     private int id;
 
     private String framename;
-
     private String de;
-
-    private String eng;
-
+    private String en;
     private String fr;
-
-    private String esp;
-
+    private String es;
     private String it;
-
     private String tr;
-
     private String bindto;
-
     private String template;
-
     private String titletemplate;
-
     private String comp_name;
 
-
-    public String getComp_name() {
-        return comp_name;
-    }
-
-    public void setComp_name(String comp_name) {
-        this.comp_name = comp_name;
-    }
 
     public int getId() {
         return id;
@@ -68,12 +50,12 @@ public class m_webtextlayout
         this.de = de;
     }
 
-    public String getEng() {
-        return eng;
+    public String getEn() {
+        return en;
     }
 
-    public void setEng(String eng) {
-        this.eng = eng;
+    public void setEn(String en) {
+        this.en = en;
     }
 
     public String getFr() {
@@ -84,12 +66,12 @@ public class m_webtextlayout
         this.fr = fr;
     }
 
-    public String getEsp() {
-        return esp;
+    public String getEs() {
+        return es;
     }
 
-    public void setEsp(String esp) {
-        this.esp = esp;
+    public void setEs(String es) {
+        this.es = es;
     }
 
     public String getIt() {
@@ -130,5 +112,13 @@ public class m_webtextlayout
 
     public void setTitletemplate(String titletemplate) {
         this.titletemplate = titletemplate;
+    }
+
+    public String getComp_name() {
+        return comp_name;
+    }
+
+    public void setComp_name(String comp_name) {
+        this.comp_name = comp_name;
     }
 }

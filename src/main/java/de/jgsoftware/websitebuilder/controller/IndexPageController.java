@@ -1,6 +1,7 @@
 package de.jgsoftware.websitebuilder.controller;
 
 
+import de.jgsoftware.websitebuilder.model.m_webtextlayout;
 import de.jgsoftware.websitebuilder.service.DemoPageService;
 import de.jgsoftware.websitebuilder.service.IndexService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -71,13 +72,13 @@ public class IndexPageController {
 
 
     @PostMapping("/edit/crudlist")
-    public ModelAndView editcrudlist()
-    {
+    public String submitForm(m_webtextlayout webtextlayout) {
+        System.out.println(webtextlayout);
 
-        ModelAndView mv = new ModelAndView("editcrudlist");
-
-        return mv;
+        idexservice.getDcontroller().saveFormModalData(webtextlayout);
+        return "redirect:/";
     }
+
 
     @RequestMapping("/demo")
     public String demopreview()
