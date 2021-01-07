@@ -1,6 +1,7 @@
 package de.jgsoftware.websitebuilder.controller;
 
 
+import de.jgsoftware.websitebuilder.model.m_bootstrap_comonents;
 import de.jgsoftware.websitebuilder.model.m_webtextlayout;
 import de.jgsoftware.websitebuilder.service.DemoPageService;
 import de.jgsoftware.websitebuilder.service.IndexService;
@@ -95,5 +96,10 @@ public class IndexPageController {
 
 
 
+    @PostMapping(path= "/savedata", consumes = "application/json", produces = "application/json")
+    public String addEmployee(@RequestBody m_bootstrap_comonents bootstrap_comonents)
+    {
 
+        return "redirect:/";
+    }
 }

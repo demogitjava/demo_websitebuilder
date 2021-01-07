@@ -17,6 +17,17 @@ public class m_bootstrap_comonents
     private String compname;
     private String bootstrapcompname;
 
+    private String svgname;
+
+
+    public String getSvgname() {
+        return svgname;
+    }
+
+    public void setSvgname(String svgname) {
+        this.svgname = svgname;
+    }
+
     public int getId() {
         return id;
     }
