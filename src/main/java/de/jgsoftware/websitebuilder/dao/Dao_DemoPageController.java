@@ -12,6 +12,7 @@ import org.springframework.stereotype.Repository;
 import de.jgsoftware.websitebuilder.model.m_webtextlayout;
 
 import java.util.List;
+import java.io.*;
 
 @Repository
 public class Dao_DemoPageController
@@ -60,5 +61,88 @@ public class Dao_DemoPageController
         int_mwebtextlayout.save(webtextlayout);
 
     }
+
+
+
+    /*
+            save File
+            with name header.html
+            and header.css
+     */
+    public void saveheaderfile(String gjshtml, String gjscss)
+    {
+        try
+        {
+            // header.html
+            FileWriter headerhtml = new FileWriter("header.html");
+            headerhtml.write(gjshtml.toString());
+            headerhtml.close();
+
+            // header.css
+            FileWriter headercss = new FileWriter("header.css");
+            headercss.write(gjscss.toString());
+            headercss.close();
+
+        } catch (Exception e)
+        {
+            System.out.print("Error" + e);
+        }
+    }
+
+    /**
+     *  save content
+     *  content.html
+     *  content.css
+     */
+    public void savecontentfile(String gjshtml, String gjscss)
+    {
+        try
+        {
+            // header.html
+            FileWriter contenthtml = new FileWriter("content.html");
+            contenthtml.write(gjshtml.toString());
+            contenthtml.close();
+
+            // header.css
+            FileWriter contentcss = new FileWriter("content.css");
+            contentcss.write(gjscss.toString());
+            contentcss.close();
+
+
+        } catch (Exception e)
+        {
+            System.out.print("Error" + e);
+        }
+    }
+
+
+    /**
+     *  save content
+     *  content.html
+     *  content.css
+     */
+    public void savefooterfile(String gjshtml, String gjscss)
+    {
+        try
+        {
+            // header.html
+            FileWriter footerhtml = new FileWriter("footer.html");
+            footerhtml.write(gjshtml.toString());
+            footerhtml.close();
+
+            // header.css
+            FileWriter footercss = new FileWriter("footer.css");
+            footercss.write(gjscss.toString());
+            footercss.close();
+
+
+        } catch (Exception e)
+        {
+            System.out.print("Error" + e);
+        }
+    }
+
+
+
 }
 

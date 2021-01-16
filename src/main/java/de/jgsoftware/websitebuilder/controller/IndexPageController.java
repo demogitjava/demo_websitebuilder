@@ -1,7 +1,6 @@
 package de.jgsoftware.websitebuilder.controller;
 
 
-import de.jgsoftware.websitebuilder.model.m_bootstrap_comonents;
 import de.jgsoftware.websitebuilder.model.m_webtextlayout;
 import de.jgsoftware.websitebuilder.service.DemoPageService;
 import de.jgsoftware.websitebuilder.service.IndexService;
@@ -12,13 +11,16 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.support.RequestContextUtils;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 
 @Controller
 @RequestMapping("/")
 public class IndexPageController {
+
     @Autowired
-    DemoPageService demoPageService;
+    public DemoPageService demoPageService;
+
     @Autowired
     HttpServletRequest request;
 
@@ -95,11 +97,79 @@ public class IndexPageController {
     }
 
 
+    /**
+     * save data to header.html and header.css
+     * over post from editor to file
+     * @param gjshtml
+     * @param gjscss
+     * @return
+     */
 
-    @PostMapping(path= "/savedata", consumes = "application/json", produces = "application/json")
-    public String addEmployee(@RequestBody m_bootstrap_comonents bootstrap_comonents)
+    @RequestMapping("/saveheaderdata")
+    @ResponseBody
+    public String header(
+            @RequestParam(value = "gjshtml", required = false) String gjshtml,
+            @RequestParam(value = "gjscss", required = false) String gjscss)
+          // HttpServletRequest request, HttpServletResponse response)
     {
 
-        return "redirect:/";
+
+        idexservice.getDcontroller().saveheaderfile(gjshtml, gjscss);
+        System.out.print("das ist htmlgsjs");
+
+
+
+        return "header data saved";
     }
+
+
+    /**
+     *  save content to file
+     *  content.html
+     *  content.css
+     *
+     * @param gjshtml
+     * @param gjscss
+     * @return
+     */
+    @RequestMapping("/savecontentdata")
+    @ResponseBody
+    public String content(
+            @RequestParam(value = "gjshtml", required = false) String gjshtml,
+            @RequestParam(value = "gjscss", required = false) String gjscss)
+    // HttpServletRequest request, HttpServletResponse response)
+    {
+
+
+        idexservice.getDcontroller().savecontentfile(gjshtml, gjscss);
+
+        return "content data saved";
+    }
+
+
+    /**
+     *  save footer to file
+     *  footer.html
+     *  footer.css
+     *
+     * @param gjshtml
+     * @param gjscss
+     * @return
+     */
+    @RequestMapping("/savefooterdata")
+    @ResponseBody
+    public String footer(
+            @RequestParam(value = "gjshtml", required = false) String gjshtml,
+            @RequestParam(value = "gjscss", required = false) String gjscss)
+    // HttpServletRequest request, HttpServletResponse response)
+    {
+
+
+        idexservice.getDcontroller().savefooterfile(gjshtml, gjscss);
+
+        return "content data saved";
+    }
+
+
+
 }

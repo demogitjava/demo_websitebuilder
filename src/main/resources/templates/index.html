@@ -80,13 +80,16 @@
 
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-          load Template Data
+          save Template Data to file
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
           <li><a class="dropdown-item" onclick="gethtmldata()">Header</a></li>
-          <li><a class="dropdown-item" href="#">Content Body</a></li>
-          <li><a class="dropdown-item" href="#">Footer</a></li>
+          <li><a class="dropdown-item" onclick="gethtmlcontentdata()">Content Body</a></li>
+          <li><a class="dropdown-item" onclick="gethtmlfooterdata()">Footer</a></li>
         </ul>
+      </div>
+
+      <div id="messageinfo">
       </div>
 
 
@@ -95,32 +98,90 @@
       <script type="text/javascript">
 
 
-        function sethtmldata()
-        {
-          var htmldata = localStorage.setItem("gjs-html");
-          var cssdata = localStorage.setItem("gjs-css");
+        /**  HEADER
+         *  post data to Rest Controller
+         *  to save as file
+         *  and store in database
 
-        }
-
-
+         *
+         */
         function gethtmldata()
         {
           var htmldata = localStorage.getItem("gjs-html");
           var cssdata = localStorage.getItem("gjs-css");
 
 
-          const data=
-                  {
-                    htmldata: htmldata,
-                    cssdata: cssdata
-
-                  };
-
-          $.post("/savedata", data, function(data, status)
-          {
-            console.log('data status');
+          $.ajax({
+            type : "POST",
+            url : "saveheaderdata",
+            data : {
+              gjshtml : localStorage.getItem('gjs-html'),
+              gjscss : localStorage.getItem('gjs-css')
+            }, // parameters
+            success : function(result) {
+              // alert('changed');
+              console.log('sucess');
+              $( "#messageinfo" ).html( "<strong>" + result + "</strong>" );
+            }
           });
+
         }
+
+
+        /**
+         * CONTENT
+         * post data to RestController
+         * to save Content as file
+         */
+        function gethtmlcontentdata()
+        {
+          var htmldata = localStorage.getItem("gjs-html");
+          var cssdata = localStorage.getItem("gjs-css");
+
+          $.ajax({
+            type : "POST",
+            url : "savecontentdata",
+            data : {
+              gjshtml : localStorage.getItem('gjs-html'),
+              gjscss : localStorage.getItem('gjs-css')
+            }, // parameters
+            success : function(result) {
+              // alert('changed');
+              console.log('sucess');
+              $( "#messageinfo" ).html( "<strong>" + result + "</strong>" );
+            }
+          });
+
+        }
+
+
+        /**
+         *  FOOTER
+         *  post data to RestCotroller
+         *  to save footer as file
+         */
+        function gethtmlfooterdata()
+        {
+          var htmldata = localStorage.getItem("gjs-html");
+          var cssdata = localStorage.getItem("gjs-css");
+
+          $.ajax({
+            type : "POST",
+            url : "savefooterdata",
+            data : {
+              gjshtml : localStorage.getItem('gjs-html'),
+              gjscss : localStorage.getItem('gjs-css')
+            }, // parameters
+            success : function(result) {
+              // alert('changed');
+              console.log('sucess');
+              $( "#messageinfo" ).html( "<strong>" + result + "</strong>" );
+            }
+          });
+
+        }
+
+
       </script>
 
     </div>
@@ -189,8 +250,7 @@
         window.editor = editor;
       </script>
       <div id="tablecrud">
-
-        <table class="table table-striped">
+          <table class="table table-striped">
           <thead>
           <tr>
             <th>id</th>
@@ -222,7 +282,7 @@
             <td th:text="${webtextlayout.titletemplate}">Title Template</td>
             <td>
               <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" th:attrappend="data-target=${webtextlayout.id}">
+              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal" th:attrappend="data-target=${webtextlayout.id}">
                 Edit
               </button>
 
@@ -288,7 +348,7 @@
 
                         </div>
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Save changes</button>
+                        <button type="submit" class="btn btn-secondary">Save changes</button>
                       </form>
 
                     </div>
@@ -303,8 +363,6 @@
           </tr>
           </tbody>
         </table>
-
-
       </div>
     </div>
 

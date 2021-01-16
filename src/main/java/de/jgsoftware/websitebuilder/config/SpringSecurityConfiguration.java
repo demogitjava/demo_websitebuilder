@@ -9,6 +9,10 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
 
 import javax.sql.DataSource;
 
@@ -45,7 +49,10 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter{
 	@Override
 	protected void configure(HttpSecurity http) throws Exception
 	{
+
+
 		http
+				.csrf().disable().cors().and()
 				.authorizeRequests()
 				.antMatchers(
 						"/index.html",
@@ -74,13 +81,8 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter{
 
 
 
+
 	}
-
-
-
-
-
-
 
 
 
