@@ -14,33 +14,30 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit grapesjs.min plugin&#10;so you can export your data als zip &#10;and import a bootstrap template to your editor">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo_websitebuilder_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add save a save option for localStorage &#10;to save to file as header.html, header.css, content.html, content.css&#10;and footer.html, footer.css to import it&#10;to the webshop and show ist as&#10;headerfragement and conentfragement and footerfragment">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap4/css/bootstrap-theme.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_websitebuilder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_websitebuilder.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/config/SpringSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/config/SpringSecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/controller/IndexPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/dao/Dao_DemoPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/dao/Dao_DemoPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/service/DemoPageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/service/DemoPageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +107,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/jgsoftware_android" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/bootstrap4/css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -132,18 +129,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/static/fontawesome/css" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="de.jgsoftware.websitebuilder.config" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/bootstrap4/css" />
       <recent name="$PROJECT_DIR$/src/main/java/META-INF" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/target/classes/templates" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/test" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/grapesjs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.jgsoftware.websitebuilder.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/fontawesome/css" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DemoWebsitebuilderApplication">
@@ -341,7 +338,7 @@
       <workItem from="1610470946894" duration="2391000" />
       <workItem from="1610524903872" duration="942000" />
       <workItem from="1610546966150" duration="5040000" />
-      <workItem from="1610778113237" duration="670000" />
+      <workItem from="1610778113237" duration="6905000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -497,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610005306306</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add save a save option for localStorage &#10;to save to file as header.html, header.css, content.html, content.css&#10;and footer.html, footer.css to import it&#10;to the webshop and show ist as&#10;headerfragement and conentfragement and footerfragment">
+      <created>1610779965863</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1610779965864</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,7 +512,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -536,7 +552,8 @@
     <MESSAGE value="delete jar lib folder with jars.&#10;The jars are added from maven pom.xml" />
     <MESSAGE value="add a crud interface repository for table webtextlayout to save your data over the index.html" />
     <MESSAGE value="edit grapesjs.min plugin&#10;so you can export your data als zip &#10;and import a bootstrap template to your editor" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit grapesjs.min plugin&#10;so you can export your data als zip &#10;and import a bootstrap template to your editor" />
+    <MESSAGE value="add save a save option for localStorage &#10;to save to file as header.html, header.css, content.html, content.css&#10;and footer.html, footer.css to import it&#10;to the webshop and show ist as&#10;headerfragement and conentfragement and footerfragment" />
+    <option name="LAST_COMMIT_MESSAGE" value="add save a save option for localStorage &#10;to save to file as header.html, header.css, content.html, content.css&#10;and footer.html, footer.css to import it&#10;to the webshop and show ist as&#10;headerfragement and conentfragement and footerfragment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="847" y="562" width="824" height="192" key="#Assign_Data_Sources" timestamp="1608883801632">
@@ -631,25 +648,25 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="819" y="525" key="Github.CreateGistDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1609323719859" />
-    <state width="1758" height="355" key="GridCell.Tab.0.bottom" timestamp="1610777841597">
+    <state width="1390" height="468" key="GridCell.Tab.0.bottom" timestamp="1610795116086">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1758" height="355" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1610777841597" />
+    <state width="1390" height="468" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1610795116086" />
     <state width="1496" height="197" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1610450900022" />
-    <state width="1758" height="355" key="GridCell.Tab.0.center" timestamp="1610777841597">
+    <state width="1390" height="468" key="GridCell.Tab.0.center" timestamp="1610795116086">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1758" height="355" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1610777841597" />
+    <state width="1390" height="468" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1610795116086" />
     <state width="1496" height="197" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1610450900021" />
-    <state width="1758" height="355" key="GridCell.Tab.0.left" timestamp="1610777841597">
+    <state width="1390" height="468" key="GridCell.Tab.0.left" timestamp="1610795116086">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1758" height="355" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1610777841597" />
+    <state width="1390" height="468" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1610795116086" />
     <state width="1496" height="197" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1610450900020" />
-    <state width="1758" height="355" key="GridCell.Tab.0.right" timestamp="1610777841597">
+    <state width="1390" height="468" key="GridCell.Tab.0.right" timestamp="1610795116086">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1758" height="355" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1610777841597" />
+    <state width="1390" height="468" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1610795116086" />
     <state width="1496" height="197" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1610450900021" />
     <state width="1514" height="490" key="GridCell.Tab.1.bottom" timestamp="1610447099903">
       <screen x="65" y="24" width="1855" height="1056" />
@@ -680,9 +697,10 @@
     </state>
     <state x="316" y="166" width="1024" height="815" key="SettingsEditor/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1610778151661" />
     <state x="354" y="168" width="1359" height="912" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1610356540517" />
-    <state x="685" y="335" width="800" height="704" key="Vcs.Push.Dialog.v2" timestamp="1610005340096">
+    <state x="685" y="363" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1610780100733">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
+    <state x="685" y="363" width="800" height="526" key="Vcs.Push.Dialog.v2/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1610780100733" />
     <state x="685" y="335" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1610005340096" />
     <state width="913" height="514" key="XDebugger.FullValuePopup" timestamp="1610197472473">
       <screen x="65" y="24" width="1855" height="1056" />
