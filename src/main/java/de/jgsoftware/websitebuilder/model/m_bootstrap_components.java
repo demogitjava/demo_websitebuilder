@@ -7,7 +7,7 @@ import java.sql.Clob;
 
 @Entity
 @Table(name = "bootstrap_components")
-public class m_bootstrap_comonents
+public class m_bootstrap_components
 {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
