@@ -5,6 +5,7 @@ import de.jgsoftware.websitebuilder.dao.interfaces.Int_m_webtextlayout;
 import de.jgsoftware.websitebuilder.model.m_bootstrap_components;
 import de.jgsoftware.websitebuilder.service.IndexService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
@@ -24,6 +25,7 @@ public class Dao_DemoPageController
     @Autowired
     private JdbcTemplate jtm;
 
+    @Lazy
     @Autowired
     private IndexService sdemowebtext;
 
