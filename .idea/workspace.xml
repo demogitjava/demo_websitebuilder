@@ -15,8 +15,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add @Lazy Anotation in Dao_DemoPageController &#10;the application is now running with maven deploy.&#10;&#10;/usr/lib/jvm/java-1.8.0-openjdk-i386/bin/java -Dfile.encoding=UTF-8 -jar /root/IdeaProjects/demo_websitebuilder/target/demo_websitebuilder-0.0.1-SNAPSHOT.jar">
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit README.md&#10;to start programm over terminal command">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +104,7 @@
     <property name="project.structure.side.proportion" value="0.27424023" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -135,7 +136,7 @@
       <recentPaths value="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder" />
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.demo_websitebuilder-0.0.1-SNAPSHOT.jar">
+  <component name="RunManager" selected="Spring Boot.DemoWebsitebuilderApplication">
     <configuration name="demo_websitebuilder-0.0.1-SNAPSHOT.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/demo_websitebuilder-0.0.1-SNAPSHOT.jar" />
       <method v="2" />
@@ -148,6 +149,7 @@
       <option name="ENABLE_JMX_AGENT" value="false" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/target" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="false" />
       <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <additionalParameters>
         <param>
@@ -161,8 +163,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.DemoWebsitebuilderApplication" />
       <item itemvalue="JAR Application.demo_websitebuilder-0.0.1-SNAPSHOT.jar" />
+      <item itemvalue="Spring Boot.DemoWebsitebuilderApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -265,7 +267,14 @@
       <workItem from="1612001379865" duration="19381000" />
       <workItem from="1612085261335" duration="2200000" />
       <workItem from="1612087752265" duration="3115000" />
-      <workItem from="1612253766141" duration="2931000" />
+      <workItem from="1612253766141" duration="4819000" />
+      <workItem from="1612267959932" duration="130000" />
+      <workItem from="1612268176619" duration="3820000" />
+      <workItem from="1612368271600" duration="1325000" />
+      <workItem from="1612370605641" duration="2208000" />
+      <workItem from="1612418359926" duration="7467000" />
+      <workItem from="1612505404279" duration="12172000" />
+      <workItem from="1612605875648" duration="4392000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -456,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612258775027</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="edit README.md&#10;to start programm over terminal command">
+      <created>1612259422654</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1612259422654</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +528,8 @@
     <MESSAGE value="add bootstrap default theme with loading by bootstrap.min.js" />
     <MESSAGE value="add bootstrap toolbar with jquery to clear canvas &#10;becouse grapesjs plugin is not loaded correctly" />
     <MESSAGE value="add @Lazy Anotation in Dao_DemoPageController &#10;the application is now running with maven deploy.&#10;&#10;/usr/lib/jvm/java-1.8.0-openjdk-i386/bin/java -Dfile.encoding=UTF-8 -jar /root/IdeaProjects/demo_websitebuilder/target/demo_websitebuilder-0.0.1-SNAPSHOT.jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="add @Lazy Anotation in Dao_DemoPageController &#10;the application is now running with maven deploy.&#10;&#10;/usr/lib/jvm/java-1.8.0-openjdk-i386/bin/java -Dfile.encoding=UTF-8 -jar /root/IdeaProjects/demo_websitebuilder/target/demo_websitebuilder-0.0.1-SNAPSHOT.jar" />
+    <MESSAGE value="edit README.md&#10;to start programm over terminal command" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit README.md&#10;to start programm over terminal command" />
   </component>
   <component name="WindowStateProjectService">
     <state x="847" y="562" width="824" height="192" key="#Assign_Data_Sources" timestamp="1608883801632">
@@ -528,6 +545,10 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="784" y="698" width="402" height="190" key="#Chrome_Settings/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1611118636175" />
+    <state x="363" y="52" width="831" height="1028" key="#DemoWebsitebuilderApplication" timestamp="1612607959503">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="363" y="52" width="831" height="1028" key="#DemoWebsitebuilderApplication/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612607959503" />
     <state x="853" y="614" width="402" height="190" key="#Firefox_Settings" timestamp="1611476534362">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -550,20 +571,20 @@
     </state>
     <state x="160" y="153" width="1593" height="815" key="#Project_Structure/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1611987597393" />
     <state x="166" y="251" width="1489" height="815" key="#Project_Structure/65.24.1855.1056@65.24.1855.1056" timestamp="1610353342618" />
-    <state x="101" y="291" width="1637" height="444" key="#Web_Browsers" timestamp="1611477681923">
+    <state x="101" y="291" width="1637" height="444" key="#Web_Browsers" timestamp="1612505263790">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="101" y="291" width="1637" height="444" key="#Web_Browsers/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1611477681923" />
+    <state x="101" y="291" width="1637" height="444" key="#Web_Browsers/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612505263790" />
     <state x="426" y="504" width="1168" height="574" key="#Web_Browsers/65.24.1855.1056@65.24.1855.1056" timestamp="1610010443612" />
     <state x="796" y="440" width="324" height="282" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1611225678446">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="796" y="440" key="#com.intellij.debugger.actions.ViewTextAction/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1611225678446" />
     <state x="796" y="412" width="324" height="282" key="#com.intellij.debugger.actions.ViewTextAction/65.24.1855.1056@65.24.1855.1056" timestamp="1608383890456" />
-    <state x="289" y="52" width="1284" height="1028" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612254504687">
+    <state x="298" y="52" width="1284" height="1028" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612434371151">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="289" y="52" width="1284" height="1028" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612254504687" />
+    <state x="298" y="52" width="1284" height="1028" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612434371151" />
     <state x="319" y="107" width="1281" height="973" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1610353460806" />
     <state x="1131" y="381" width="645" height="394" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611843134915">
       <screen x="65" y="24" width="1855" height="1056" />
@@ -646,33 +667,33 @@
     </state>
     <state x="819" y="581" key="Github.CreateGistDialog/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1611497281832" />
     <state x="819" y="525" key="Github.CreateGistDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1609323719859" />
-    <state x="812" y="531" width="345" height="131" key="Github.Dialog.Accounts.Choose" timestamp="1612258849481">
+    <state x="812" y="559" width="345" height="131" key="Github.Dialog.Accounts.Choose" timestamp="1612259472799">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="812" y="531" width="345" height="131" key="Github.Dialog.Accounts.Choose/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612258849481" />
-    <state width="1776" height="352" key="GridCell.Tab.0.bottom" timestamp="1612258621275">
+    <state x="812" y="559" width="345" height="131" key="Github.Dialog.Accounts.Choose/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612259472799" />
+    <state width="1312" height="522" key="GridCell.Tab.0.bottom" timestamp="1612555715606">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1781" height="501" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1366.768@1920.0.1366.768" timestamp="1611724026597" />
-    <state width="1776" height="352" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612258621275" />
+    <state width="1312" height="522" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612555715606" />
     <state width="1496" height="197" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1610450900022" />
-    <state width="1776" height="352" key="GridCell.Tab.0.center" timestamp="1612258621274">
+    <state width="1312" height="522" key="GridCell.Tab.0.center" timestamp="1612555715606">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1781" height="501" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1366.768@1920.0.1366.768" timestamp="1611724026597" />
-    <state width="1776" height="352" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612258621274" />
+    <state width="1312" height="522" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612555715606" />
     <state width="1496" height="197" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1610450900021" />
-    <state width="1776" height="352" key="GridCell.Tab.0.left" timestamp="1612258621273">
+    <state width="1312" height="522" key="GridCell.Tab.0.left" timestamp="1612555715605">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1781" height="501" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1366.768@1920.0.1366.768" timestamp="1611724026597" />
-    <state width="1776" height="352" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612258621273" />
+    <state width="1312" height="522" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612555715605" />
     <state width="1496" height="197" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1610450900020" />
-    <state width="1776" height="352" key="GridCell.Tab.0.right" timestamp="1612258621274">
+    <state width="1312" height="522" key="GridCell.Tab.0.right" timestamp="1612555715606">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1781" height="501" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1366.768@1920.0.1366.768" timestamp="1611724026597" />
-    <state width="1776" height="352" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612258621274" />
+    <state width="1312" height="522" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612555715606" />
     <state width="1496" height="197" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1610450900021" />
     <state width="1666" height="421" key="GridCell.Tab.1.bottom" timestamp="1612189042483">
       <screen x="65" y="24" width="1855" height="1056" />
@@ -694,6 +715,10 @@
     </state>
     <state width="1666" height="421" key="GridCell.Tab.1.right/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612189042481" />
     <state width="1514" height="490" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1610447099902" />
+    <state x="284" y="343" width="1112" height="496" key="IDE.errors.dialog" timestamp="1612268341123">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="284" y="343" width="1112" height="496" key="IDE.errors.dialog/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612268341123" />
     <state x="516" y="161" width="924" height="682" key="Maven.ArtifactSearchDialog" timestamp="1608305187951">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -702,15 +727,15 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="701" y="252" width="595" height="631" key="RollbackChangesDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1608451938636" />
-    <state x="184" y="274" width="1607" height="762" key="SettingsEditor" timestamp="1612254390385">
+    <state x="186" y="132" width="1607" height="883" key="SettingsEditor" timestamp="1612505248460">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="184" y="274" width="1607" height="762" key="SettingsEditor/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612254390385" />
+    <state x="186" y="132" width="1607" height="883" key="SettingsEditor/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612505248460" />
     <state x="354" y="168" width="1359" height="912" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1610356540517" />
-    <state x="685" y="503" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1612258808834">
+    <state x="685" y="531" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1612259441480">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="685" y="503" width="800" height="526" key="Vcs.Push.Dialog.v2/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612258808834" />
+    <state x="685" y="531" width="800" height="526" key="Vcs.Push.Dialog.v2/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612259441480" />
     <state x="685" y="335" width="800" height="704" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1610005340096" />
     <state width="913" height="514" key="XDebugger.FullValuePopup" timestamp="1611225596161">
       <screen x="65" y="24" width="1855" height="1056" />
