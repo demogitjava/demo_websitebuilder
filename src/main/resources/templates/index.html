@@ -283,7 +283,7 @@
     </div>
 
     <div class="col-md-10">
-      <div id="gjs" th:include="demo.html">
+      <div id="gjs" th:include="demo.html" sandbox>
 
       </div>
       <script type="text/javascript" th:inline="javascript">
@@ -432,12 +432,12 @@
                   label: '<h1><i class="fa fa-th fa-lg"></i></h1> textfield search',
                   content: '<div class="row"></div><div class="row">' +
                            '<div class="col-sm-12">' +
-                           '<div class="input-group mb-3">' +
-                           '<input trype="text" class="form-control" placeholder="search your item" aria-describedby="basic-addon2">' +
+                           '<form action="/searchProduct" method="POST"><div class="input-group mb-3">' +
+                           '<input name="searchproduct" trype="text" class="form-control" placeholder="search your item" aria-describedby="basic-addon2">' +
                            '<div class="input-group-append">' +
                            '<span class="input-group-text" id="basic-addon2">search</span>' +
                            '</div>' +
-                           '</div>' +
+                           '</div></form>' +
                            '</div>',
                 });
 

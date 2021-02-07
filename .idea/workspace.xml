@@ -275,6 +275,7 @@
       <workItem from="1612418359926" duration="7467000" />
       <workItem from="1612505404279" duration="12172000" />
       <workItem from="1612605875648" duration="4392000" />
+      <workItem from="1612716771683" duration="1385000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -545,10 +546,10 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="784" y="698" width="402" height="190" key="#Chrome_Settings/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1611118636175" />
-    <state x="363" y="52" width="831" height="1028" key="#DemoWebsitebuilderApplication" timestamp="1612607959503">
+    <state x="363" y="52" width="831" height="1028" key="#DemoWebsitebuilderApplication" timestamp="1612717097715">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="363" y="52" width="831" height="1028" key="#DemoWebsitebuilderApplication/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612607959503" />
+    <state x="363" y="52" width="831" height="1028" key="#DemoWebsitebuilderApplication/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612717097715" />
     <state x="853" y="614" width="402" height="190" key="#Firefox_Settings" timestamp="1611476534362">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -671,29 +672,29 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="812" y="559" width="345" height="131" key="Github.Dialog.Accounts.Choose/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612259472799" />
-    <state width="1312" height="522" key="GridCell.Tab.0.bottom" timestamp="1612555715606">
+    <state width="1274" height="231" key="GridCell.Tab.0.bottom" timestamp="1612717800056">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1781" height="501" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1366.768@1920.0.1366.768" timestamp="1611724026597" />
-    <state width="1312" height="522" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612555715606" />
+    <state width="1274" height="231" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612717800056" />
     <state width="1496" height="197" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1610450900022" />
-    <state width="1312" height="522" key="GridCell.Tab.0.center" timestamp="1612555715606">
+    <state width="1274" height="231" key="GridCell.Tab.0.center" timestamp="1612717800055">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1781" height="501" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1366.768@1920.0.1366.768" timestamp="1611724026597" />
-    <state width="1312" height="522" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612555715606" />
+    <state width="1274" height="231" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612717800055" />
     <state width="1496" height="197" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1610450900021" />
-    <state width="1312" height="522" key="GridCell.Tab.0.left" timestamp="1612555715605">
+    <state width="1274" height="231" key="GridCell.Tab.0.left" timestamp="1612717800055">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1781" height="501" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1366.768@1920.0.1366.768" timestamp="1611724026597" />
-    <state width="1312" height="522" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612555715605" />
+    <state width="1274" height="231" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612717800055" />
     <state width="1496" height="197" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1610450900020" />
-    <state width="1312" height="522" key="GridCell.Tab.0.right" timestamp="1612555715606">
+    <state width="1274" height="231" key="GridCell.Tab.0.right" timestamp="1612717800055">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1781" height="501" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1366.768@1920.0.1366.768" timestamp="1611724026597" />
-    <state width="1312" height="522" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612555715606" />
+    <state width="1274" height="231" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612717800055" />
     <state width="1496" height="197" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1610450900021" />
     <state width="1666" height="421" key="GridCell.Tab.1.bottom" timestamp="1612189042483">
       <screen x="65" y="24" width="1855" height="1056" />
@@ -768,9 +769,10 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="310" y="171" width="944" height="788" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1611054401605" />
-    <state x="796" y="565" width="433" height="140" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609424709977">
+    <state x="796" y="593" width="453" height="140" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612716960907">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
+    <state x="796" y="593" width="453" height="140" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/65.24.1855.1056/1920.0.1366.768@65.24.1855.1056" timestamp="1612716960907" />
     <state x="796" y="565" width="433" height="140" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/65.24.1855.1056@65.24.1855.1056" timestamp="1609424709977" />
     <state x="899" y="332" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1611915944075">
       <screen x="65" y="24" width="1855" height="1056" />
