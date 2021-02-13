@@ -43,7 +43,7 @@
   <script th:src="@{/jquery/ui/jquery-ui.min.js}"></script>
   <script th:src="@{/grapesjs/grapes.min.js}"></script>
   <script th:src="@{/grapesjs/ajaxable.min.js}"></script>
-  <script th:src="@{/grapesjs/grapesjs-html-block.js}"></script>
+
   <script th:src="@{/popper.min.js}"></script>
 
   <style>
@@ -283,10 +283,12 @@
     </div>
 
     <div class="col-md-10">
-      <div id="gjs" th:include="demo.html" sandbox>
+      <!--/*@thymesVar id="changeincludehtml" type=""*/-->
+      <div id="gjs" th:include="demo" sandbox>
 
       </div>
-      <script type="text/javascript" th:inline="javascript">
+
+      <script th:inline="javascript">
 
         var editor = grapesjs.init
         ({
@@ -302,9 +304,7 @@
             ],
             scripts: [
                     '/jquery/jquery-3.5.1.min.js',
-                    '/bootstrap.min.js',
                     '/grapesjs/bootstrap.bundle.min.js'
-
             ],
           }
 
@@ -433,7 +433,7 @@
                   content: '<div class="row"></div><div class="row">' +
                            '<div class="col-sm-12">' +
                            '<form action="/searchProduct" method="POST"><div class="input-group mb-3">' +
-                           '<input name="searchproduct" trype="text" class="form-control" placeholder="search your item" aria-describedby="basic-addon2">' +
+                           '<input name="searchproduct" type="text" class="form-control" placeholder="search your item" aria-describedby="basic-addon2">' +
                            '<div class="input-group-append">' +
                            '<span class="input-group-text" id="basic-addon2">search</span>' +
                            '</div>' +
