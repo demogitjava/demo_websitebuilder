@@ -15,6 +15,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import de.jgsoftware.websitebuilder.model.m_bootstrap_components;
 import static java.nio.charset.StandardCharsets.*;
+
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -104,6 +106,16 @@ public class IndexPageController {
          */
 
         mv.addObject("defaultpage", idexservice.getDcontroller().loaddefaultpagetograpesjs()); // default is demo.html set to grapesjs
+
+
+
+        ArrayList loadfragments = new ArrayList();
+        loadfragments.add("header");
+        loadfragments.add("bodycontent");
+        loadfragments.add("footer");
+
+        mv.addObject("loadfragments", loadfragments);
+
 
         return mv;
     }

@@ -114,6 +114,18 @@
 
     <repositories>
         <repository>
+            <id>maven-snapshots</id>
+            <url>http://repo.maven.apache.org/maven2/</url>
+            <layout>default</layout>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+
+        <repository>
             <id>spring-libs-snapshot</id>
             <url>https://repo.spring.io/libs-snapshot</url>
         </repository>
@@ -134,11 +146,13 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.3.2</version>
                 <configuration>
-                    <showDeprecation>false</showDeprecation>
-                    <debug>false</debug>
+                    <showDeprecation>true</showDeprecation>
                 </configuration>
             </plugin>
 
         </plugins>
     </build>
+
+
+
 </project>

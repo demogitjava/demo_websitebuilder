@@ -83,16 +83,16 @@
       <li class="btn-group draggable-group ui-state-default" id="group-file">
         <div class="btn-warning pull-left group-handle"><i class="fa fa-caret-down fa-1 toggle-button-group" data-toggle="tooltip" data-placement="bottom" title="Expand / Colapse"></i></div>
 
-        <button class="btn btn-primary btn-md" id="btn_empty" data-toggle="tooltip" data-placement="bottom" title="Clear Screen" onclick="clearcanvas()"><i class="fa fa-trash" ></i></button>
+        <button class="btn btn-primary btn-md" id="btn_clearcanvas" data-toggle="tooltip" data-placement="bottom" title="Clear Screen" onclick="clearcanvas()"><i class="fa fa-trash" ></i></button>
         <button class="btn btn-primary btn-md" id="btn_svgOpen" data-toggle="tooltip" data-placement="bottom" title="Import Template"><i class="fa fa-upload"></i></button>
 
       </li>
 
-
       <li class="btn-group draggable-group ui-state-default" id="group-toggle-lanes">
-
-        <div class="btn-warning pull-left group-handle"><i class="fa fa-caret-down fa-1 toggle-button-group" data-toggle="tooltip" data-placement="bottom" title="Expand / Colapse"></i></div>
-
+        <!--
+        <button class="btn btn-primary btn-md" id="btn_header" data-toggle="tooltip" data-placement="bottom" title="load Header" ><i class="fa fa-cloud-upload" ></i></button>
+        <button class="btn btn-primary btn-md" id="btn_content" data-toggle="tooltip" data-placement="bottom" title="load Content Body" onclick=""><i class="fa fa-cloud" ></i></button> -->
+        <button class="btn btn-primary btn-md" id="btn_footer" data-toggle="tooltip" data-placement="bottom" title="load Footer" onclick="loadheaderdata()"><i class="fa fa-cloud-download" ></i></button>
       </li>
 
 
@@ -278,15 +278,42 @@
         }
 
 
+        function loadheaderdata()
+        {
+          // /header
+
+          console.log('function is loaded');
+
+          $(document).ready(function() {
+
+                var footer = "<!-- sticky footer --><footer class=\"footer mt-auto py-3 bg-light\">\n" +
+                        "    <div class=\"container\">\n" +
+                        "        <span class=\"text-muted\">Place sticky footer content here.</span>\n" +
+                        "    </div>\n" +
+                        "</footer>"
+            editor.DomComponents.clear(); // Clear components
+            editor.CssComposer.clear();  // Clear styles
+            editor.UndoManager.clear(); // Clear undo history
+
+            editor.setComponents(footer);
+
+          });
+        }
+
+
+
       </script>
 
     </div>
 
     <div class="col-md-10">
-      <!--/*@thymesVar id="changeincludehtml" type=""*/-->
+
+
+
       <div id="gjs" th:include="demo" sandbox>
 
       </div>
+
 
       <script th:inline="javascript">
 
@@ -429,7 +456,7 @@
         editor.BlockManager.add('searchitems',
                 {
                   category: 'Header',
-                  label: '<h1><i class="fa fa-th fa-lg"></i></h1> textfield search',
+                  label: '<h1><i class="fa fa-bars"></i></h1> textfield search',
                   content: '<div class="row"></div><div class="row">' +
                            '<div class="col-sm-12">' +
                            '<form action="/searchProduct" method="POST"><div class="input-group mb-3">' +
@@ -440,6 +467,41 @@
                            '</div></form>' +
                            '</div>',
                 });
+
+
+        editor.BlockManager.add('PrdocutList',
+                {
+                  category: 'Content',
+                  label: '<h1><i class="fa fa-bars"></i></h1> ECommerceProdutList',
+                  content: '<div class="row">\n' +
+                      '\t\t\t<div class="col-sm-12" th:each="product : ${productList}">\n' +
+                      '\t\t\t\t<div class="card mt-12">\n' +
+                      '\t\t\t\t<img th:src="${product.image}" class="card-img-top" alt="Product Image">\n' +
+                      '\t\t\t\t\t<div class="card-body">\n' +
+                      '\t\t\t\t\t\t<h5 th:text="${product.productName}" class="card-title"></h5>\n' +
+                      '\t\t\t\t\t\t<p th:text="${product.productDescription}" class="card-text"></p>\n' +
+                      '\t\t\t\t\t\t<p th:text="\'$ \'+${product.productPrice}" class="card-text"></p>\n' +
+                      '\t\t\t\t\t\t<a href="#" th:href="@{\'~/profile/addToCart/\' + ${product.productId}}" class="btn btn-primary">AddToCart</a>\n' +
+                      '\t\t\t\t\t</div>\n' +
+                      '\t\t\t\t</div>\n' +
+                      '\t\t\t</div>\n' +
+                      '\t\t</div>',
+                });
+
+
+
+        editor.BlockManager.add('Footer1',
+                {
+                  category: 'Footer',
+                  label: '<h1><i class="fa fa-bars"></i></h1> SmallFooter',
+                  content: '<!-- sticky footer -->\n' +
+                          '<footer class="footer mt-auto py-3 bg-light">\n' +
+                          '  <div class="container">\n' +
+                          '    <span class="text-muted">Place sticky footer content here.</span>\n' +
+                          '  </div>\n' +
+                          '</footer>',
+                });
+
 
         editor.BlockManager.add('Container',
                 {
