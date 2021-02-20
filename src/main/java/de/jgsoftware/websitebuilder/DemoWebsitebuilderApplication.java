@@ -23,6 +23,7 @@ import java.sql.SQLException;
 
 // de.jgsoftware.websitebuilder.DemoWebsitebuilderApplication
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class })
+
 public class DemoWebsitebuilderApplication
 {
 

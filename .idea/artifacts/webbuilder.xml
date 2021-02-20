@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="webbuilder">
+    <output-path>$PROJECT_DIR$/target/artifacts/webbuilder</output-path>
+    <root id="archive" name="webbuilder.jar">
+      <element id="module-source" name="demo_websitebuilder" />
+      <element id="artifact" artifact-name="lib" />
+    </root>
+  </artifact>
+</component>

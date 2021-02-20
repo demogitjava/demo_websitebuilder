@@ -23,8 +23,17 @@ public class m_webtextlayout
     private String bindto;
     private String template;
     private String titletemplate;
+
     private String comp_name;
 
+
+    public String getComp_name() {
+        return comp_name;
+    }
+
+    public void setComp_name(String comp_name) {
+        this.comp_name = comp_name;
+    }
 
     public int getId() {
         return id;
@@ -114,11 +123,5 @@ public class m_webtextlayout
         this.titletemplate = titletemplate;
     }
 
-    public String getComp_name() {
-        return comp_name;
-    }
 
-    public void setComp_name(String comp_name) {
-        this.comp_name = comp_name;
-    }
 }

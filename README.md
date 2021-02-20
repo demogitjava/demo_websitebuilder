@@ -18,8 +18,12 @@ to run this programm you can choose Netbeans
 =============================================
 https://netbeans.apache.org/
 ==============================================
-
 <br/>
+or you can wirte in terminal
+<br/>
+/usr/lib/jvm/java-1.8.0-openjdk-i386/bin/java -Dfile.encoding=UTF-8 -jar /root/IdeaProjects/demo_websitebuilder/target/demo_websitebuilder-0.0.1-SNAPSHOT.jar
+</br>
+to start programm watch out your directory path as "user"
 <br/>
 
 
