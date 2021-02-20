@@ -2,14 +2,14 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
-      <option name="id" value="7bdc36eb-80ba-4cab-ac82-59598ac51f98" />
-      <option name="name" value="7bdc36eb-80ba-4cab-ac82-59598ac51f98" />
-      <option name="url" value="https://repo.maven.apache.org/maven2" />
-    </remote-repository>
-    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="0bffe0d8-ecab-47c6-987c-6c3512f34123" />
+      <option name="name" value="0bffe0d8-ecab-47c6-987c-6c3512f34123" />
+      <option name="url" value="https://repo.spring.io/libs-snapshot/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="spring-libs-snapshot" />

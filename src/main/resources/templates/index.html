@@ -6,8 +6,7 @@
   <title th:text="@{page-title}"></title> -->
   <title>Demo WebSiteBuilder</title>
 
-  <script th:src="@{/jquery/jquery-3.5.1.min.js}"></script>
-  <script th:src="@{/jquery/ui/jquery-ui.min.js}"></script>
+
   <link th:href="@{/jquery/ui/jquery-ui.css}" rel="stylesheet" />
 
   <link th:href="@{/bootstrap4/css/bootstrap.css}" rel="stylesheet" />
@@ -17,20 +16,13 @@
   <link th:href="@{/grapesjs/css/grapes.min.css}" rel="stylesheet" />
   <link th:href="@{/css/small-business.css}" rel="stylesheet" />
 
+
   <!--
   https://fontawesome.com
   -->
   <link th:href="@{/fontawesome/css/fontawesome.css}" rel="stylesheet" />
-  <link th:href="@{/grapesjs/css/grapesjs-preset-webpage.min.css}" rel="stylesheet" />
 
 
-
-  <script th:src="@{/popper.min.js}"></script>
-
-  <script th:src="@{/grapesjs/grapes.min.js}"></script>
-  <script th:src="@{/grapesjs/grapesjs-preset-webpage-extend.min.js}"></script>
-  <script th:src="@{/webpagepresent/grapesjs-blocks-bootstrap4.min.js}"></script>
-  <script th:src="@{/grapesjs/ajaxable.min.js}"></script>
 
   <!--
         implement start-bootstrap
@@ -46,6 +38,13 @@
   <!--
   <script th:src="@{/vendor/jquery/jquery.js}"></script>
   -->
+
+  <script th:src="@{/jquery/jquery-3.5.1.min.js}"></script>
+  <script th:src="@{/jquery/ui/jquery-ui.min.js}"></script>
+  <script th:src="@{/grapesjs/grapes.min.js}"></script>
+  <script th:src="@{/grapesjs/ajaxable.min.js}"></script>
+  <script th:src="@{/grapesjs/grapesjs-html-block.js}"></script>
+  <script th:src="@{/popper.min.js}"></script>
 
   <style>
 
@@ -90,18 +89,15 @@
       </li>
 
 
-      <!--
       <li class="btn-group draggable-group ui-state-default" id="group-toggle-lanes">
-        <div class="btn-warning pull-left group-handle"><i class="fa fa-caret-down fa-1 toggle-button-group" data-toggle="tooltip" data-placement="bottom" title="Expand / Colapse"></i></div>
 
-        <button class="btn btn-primary btn-md" id="btn_1_lanes" data-toggle="tooltip" data-placement="bottom" title="Set 1 lane displayed of the selected parts (1)"><i class="fa fa-minus"></i></button>
-        <button class="btn btn-primary btn-md" id="btn_2_lanes" data-toggle="tooltip" data-placement="bottom" title="Set 2 lanes displayed of the selected parts (2)"><i class="fa fa-align-justify lanes_2"></i></button>
-        <button class="btn btn-primary btn-md" id="btn_3_lanes" data-toggle="tooltip" data-placement="bottom" title="Set 3 lanes displayed of the selected parts (3)"><i class="fa fa-reorder "></i></button>
-        <button class="btn btn-primary btn-md" id="btn_4_lanes" data-toggle="tooltip" data-placement="bottom" title="Set 4 lanes displayed of the selected parts (4)"><i class="fa fa-align-justify "></i></button>
+
       </li>
-    -->
+
 
     </ul>
+
+
   </div>
 
 
@@ -123,10 +119,9 @@
       </div>
 
 
-
-
-
       <script type="text/javascript">
+
+
 
 
         /**  HEADER
@@ -220,10 +215,6 @@
          */
         function clearcanvas()
         {
-
-
-
-
           editor.DomComponents.clear(); // Clear components
           editor.CssComposer.clear();  // Clear styles
           editor.UndoManager.clear(); // Clear undo history
@@ -236,9 +227,6 @@
           console.log('clear canvas');
         }
 
-
-
-
         function importhtmlandcss()
         {
 
@@ -247,13 +235,33 @@
         }
 
 
+        function loadnavmenufromspringbootrest()
+        {
+          console.log('function is loaded');
+
+          $(document).ready(function() {
+
+            $.ajax({
+              url: "getNavheaderdata"
+            }).then(function(data) {
+              $('#bzoom').append(data);
+              console.log('das wurden abgerufen');
+            });
+
+          });
+        }
+
+
+
       </script>
 
     </div>
 
     <div class="col-md-10">
-      <div id="gjs" th:include="demo.html"></div>
-      <script type="text/javascript">
+      <div id="gjs" th:include="${defaultpage}">
+
+      </div>
+      <script type="text/javascript" th:inline="javascript">
 
         var editor = grapesjs.init
         ({
@@ -261,53 +269,222 @@
           fromElement: 1,
           clearOnRender: true,
           container: '#gjs',
-
-
+          allowScripts: 1,
+          canvas: {
+            styles: [
+                    '/bootstrap4/css/bootstrap.css',
+                    '/bootstrap4/css/bootstrap-theme.min.css'
+            ],
+            scripts: [
+                    '/jquery/jquery-3.5.1.min.js',
+                    '/bootstrap.min.js',
+                    '/grapesjs/bootstrap.bundle.min.js',
+                    '/grapesjs/grapesjs-html-block.js'
+            ],
+          }
 
         });
 
 
+        editor.BlockManager.add('Container',
+            {
+                category: 'Container',
+                label: '<h1><i class="fa fa-bars"></i></h1> Container',
+                content: '<!-- Container element -->' +
+                    '<div class="container-fluid">' + '<div class="row">\n' +
+                    '\t\t<div class="col-sm-12">row \n' +
+                    '\t\t</div>\n' +
+                    '\t</div>' +
+                    '</div>' +
+                    '',
+            });
+
+
+
+
+        editor.BlockManager.add('row-6-6',
+            {
+                category: 'Grid',
+                label: '<h1><i class="fa fa-bars"></i></h1> 6-6',
+                content: '<!-- row  6-6 -->' +
+                    '<div class="row">\n' +
+                    '\t\t\t\t<div class="col-sm-6">row \n' +
+                    '\t\t\t\t</div>\n' +
+                    '\t\t\t\t<div class="col-sm-6">row \n' +
+                    '\t\t\t\t</div>\n' +
+                    '\t</div>' +
+                    '',
+            });
+
+
+
+        editor.BlockManager.add('row-4-4-4',
+            {
+                category: 'Grid',
+                label: '<h1><i class="fa fa-bars"></i></h1> 4-4-4',
+                content: '<!-- row 4-4-4 -->' +
+                    '<div class="row">\n' +
+                    '\t\t\t\t<div class="col-sm-4">row \n' +
+                    '\t\t\t\t</div>\n' +
+                    '\t\t\t\t<div class="col-sm-4">row \n' +
+                    '\t\t\t\t</div>\n' +
+                    '\t\t\t\t<div class="col-sm-4">row \n' +
+                    '\t\t\t\t</div>\n' +
+                    '\t</div>' +
+                    '',
+            });
+
+
+        editor.BlockManager.add('row-1-12',
+            {
+                category: 'Grid',
+                label: '<h1><i class="fa fa-bars"></i></h1> 1 - 12',
+                content: '<!-- row 12 -->' +
+                    '<div class="row">\n' +
+                    '\t\t<div class="col-sm-12">row \n' +
+                    '\t\t</div>\n' +
+                    '\t</div>' +
+                    '',
+            });
+
+        editor.BlockManager.add('row-3-9',
+            {
+                category: 'Grid',
+                label: '<h1><i class="fa fa-bars"></i></h1> 3 - 9',
+                content: '<!-- row 3 / 9 -->' +
+                    '<div class="row">\n' +
+                    '\t\t<div class="col-sm-3">row \n' +
+                    '\t\t</div>\n' +
+                    '\t\t<div class="col-sm-9">row \n' +
+                    '\t\t</div>\n' +
+                    '\t</div>' +
+                    '',
+            });
+
+
+
+        editor.BlockManager.add('NavBar',
+            {
+                category: 'Header',
+                label: '<h1><i class="fa fa-bars"></i></h1> MenuNavigation',
+                content: '<!-- Navigation -->' +
+                    '' +
+                    '<nav id="navigationbootstrap" class="navbar navbar-expand-lg navbar-dark bg-dark">' +
+                    '<div class="container">' +
+                    '<a class="navbar-brand" href="#" th:text="${webtextcomp[0].de}"></a> <!-- Company Name -->' +
+                    '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">' +
+                    '<span class="navbar-toggler-icon"></span>' +
+                    '</button>' +
+                    '<div class="collapse navbar-collapse" id="navbarResponsive">' +
+                    '<ul class="navbar-nav ml-auto">' +
+                    '<li class="nav-item active">' +
+                    '<a class="nav-link" href="#" th:text="${webtextcomp[1].de}">  <!-- Home -->' +
+                    '<span class="sr-only">(current)</span>' +
+                    '</a>' +
+                    '</li>' +
+                    '<li class="nav-item">' +
+                    '<a class="nav-link" href="/about" th:text="${webtextcomp[2].de}"></a>  <!-- about -->' +
+                    '</li>' +
+                    '<li class="nav-item">' +
+                    '<a class="nav-link" href="/service" th:text="${webtextcomp[3].de}"></a>  <!-- Service -->' +
+                    '</li>' +
+                    '<li class="nav-item">' +
+                    '<a class="nav-link" href="/contact" th:text="${webtextcomp[4].de}"></a>  <!-- Contact -->' +
+                    '</li>' +
+                    '<li class="nav-item">'+
+                    '<a class="nav-link" href="/login" th:text="${webtextcomp[5].de}"></a>  <!-- Login -->' +
+                    '</li>' +
+                    '</ul>' +
+                    '</div>' +
+                    '</div>' +
+                    '</nav>' +
+                    '',
+            });
+
+        editor.BlockManager.add('searchitems',
+            {
+                category: 'Header',
+                label: '<h1><i class="fa fa-bars"></i></h1> textfield search',
+                content: '<div class="row"></div><div class="row">' +
+                    '<div class="col-sm-12">' +
+                    '<form action="/searchProduct" method="POST"><div class="input-group mb-3">' +
+                    '<input name="searchproduct" type="text" class="form-control" placeholder="search your item" aria-describedby="basic-addon2">' +
+                    '<div class="input-group-append">' +
+                    '<span class="input-group-text" id="basic-addon2">search</span>' +
+                    '</div>' +
+                    '</div></form>' +
+                    '</div>',
+            });
+
+
+        editor.BlockManager.add('PrdocutList',
+            {
+                category: 'Content',
+                label: '<h1><i class="fa fa-bars"></i></h1> ECommerceProdutList',
+                content: '<div class="row">\n' +
+                    '\t\t\t<div class="col-sm-12" th:each="product : ${productList}">\n' +
+                    '\t\t\t\t<div class="card mt-12">\n' +
+                    '\t\t\t\t<img th:src="${product.image}" class="card-img-top" alt="Product Image">\n' +
+                    '\t\t\t\t\t<div class="card-body">\n' +
+                    '\t\t\t\t\t\t<h5 th:text="${product.productName}" class="card-title"></h5>\n' +
+                    '\t\t\t\t\t\t<p th:text="${product.productDescription}" class="card-text"></p>\n' +
+                    '\t\t\t\t\t\t<p th:text="\'$ \'+${product.productPrice}" class="card-text"></p>\n' +
+                    '\t\t\t\t\t\t<a href="#" th:href="@{\'~/profile/addToCart/\' + ${product.productId}}" class="btn btn-primary">AddToCart</a>\n' +
+                    '\t\t\t\t\t</div>\n' +
+                    '\t\t\t\t</div>\n' +
+                    '\t\t\t</div>\n' +
+                    '\t\t</div>',
+            });
+
+
+
+        editor.BlockManager.add('Footer1',
+            {
+                category: 'Footer',
+                label: '<h1><i class="fa fa-bars"></i></h1> SmallFooter',
+                content: '<!-- sticky footer -->\n' +
+                    '<footer class="footer mt-auto py-3 bg-light">\n' +
+                    '  <div class="container">\n' +
+                    '    <span class="text-muted">Place sticky footer content here.</span>\n' +
+                    '  </div>\n' +
+                    '</footer>',
+            });
 
 
         editor.BlockManager.add('Container',
-                {
-                  category: 'Bootstrap4 Thymeleaf',
-                  label: '<h1><i class="fa fa-th fa-lg"></i></h1>Container',
-                  content: '<div class="container-fluid">' +
-                          '<div class="row">' +
-                          '<div class="col-sm-6"><p>row1</p></div>' +
-                          '<div class="col-sm-6"><p>row2</p></div>' +
-                          '<div class="col-sm-6"><p>row1</p></div>' +
-                          '<div class="col-sm-6"><p>row2</p></div>' +
-                          '<div class="col-sm-6"><p>row1</p></div>' +
-                          '<div class="col-sm-6"><p>row2</p></div>' +
-                          '<div class="col-sm-6"><p>row1</p></div>' +
-                          '<div class="col-sm-6"><p>row2</p></div>' +
-                          '</div>' +
-                          '</div>'
-                });
-
-        editor.BlockManager.add('add_Row - 12',
-                {
-                  category: 'Bootstrap4 Thymeleaf',
-                  label: '<h1><i class="fa fa-th fa-lg"></i></h1>Row - 12  5/5',
-                  content: '<div class="row">' +
-                          '<div class="col-sm-6"><p>row1</p></div>' +
-                          '<div class="col-sm-6"><p>row2</p></div>' +
-                          '</div>',
-                });
+            {
+                category: 'Thymeleaf',
+                label: '<h1><i class="fa fa-th fa-lg"></i></h1>Container ',
+                content: '<div class="container-fluid">' +
+                    '<div class="row">' +
+                    '<div class="col-sm-6"><p>row1</p></div>' +
+                    '<div class="col-sm-6"><p>row2</p></div>' +
+                    '<div class="col-sm-6"><p>row1</p></div>' +
+                    '<div class="col-sm-6"><p>row2</p></div>' +
+                    '<div class="col-sm-6"><p>row1</p></div>' +
+                    '<div class="col-sm-6"><p>row2</p></div>' +
+                    '<div class="col-sm-6"><p>row1</p></div>' +
+                    '<div class="col-sm-6"><p>row2</p></div>' +
+                    '</div>' +
+                    '</div>'
+            });
 
         editor.BlockManager.add('TestMessage',
-                {
-                  category: 'Bootstrap4 Thymeleaf',
-                  label: '<h1><i class="fa fa-th fa-lg"></i></h1> dynamic test',
-                  content: '<p>${message}</p>',
+            {
+                category: 'Thymeleaf',
+                label: '<h1><i class="fa fa-th fa-lg"></i></h1> dynamic test',
+                content: '<p>${message}</p>',
 
-                });
+            });
+
+
+
+
 
         editor.getConfig().showDevices = false;
         window.editor = editor;
       </script>
+
       <div id="tablecrud">
           <table class="table table-striped">
           <thead>
@@ -423,6 +600,8 @@
           </tbody>
         </table>
       </div>
+
+
     </div>
 
   </div>

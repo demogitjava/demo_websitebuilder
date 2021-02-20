@@ -13,6 +13,19 @@ import org.springframework.web.servlet.support.RequestContextUtils;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import de.jgsoftware.websitebuilder.model.m_bootstrap_components;
+import static java.nio.charset.StandardCharsets.*;
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 @RequestMapping("/")
@@ -27,6 +40,10 @@ public class IndexPageController {
     @Autowired
     public IndexService idexservice;
 
+    public ModelAndView mv;
+
+    public String loadtemplatetograpesjs;
+    public String loaddefautlpage;
 
     // load default landingpage
     @GetMapping({"index", "/"})
@@ -34,7 +51,7 @@ public class IndexPageController {
 
         //model.addAttribute("lgname", plgservice.getMultipagelanguage().getPageLanguageText());
         //model.addAttribute("productList", indexservice.getDaoProduct().getProductsforLandingpage());
-        ModelAndView mv = new ModelAndView("index");
+        mv = new ModelAndView("index");
         mv.addObject("message", "TestString 123");
 
 
@@ -49,8 +66,6 @@ public class IndexPageController {
                 BOOTSTRAP_COMPOENTS to Controller
          */
         mv.addObject( "bootstrapcomponent", idexservice.getDcontroller().getBootstrapComponents());
-
-
 
 
         /**
@@ -70,6 +85,26 @@ public class IndexPageController {
         String languagestr = RequestContextUtils.getLocale(request).getLanguage();
         mv.addObject("lang", languagestr);
 
+
+        /*
+            load default html page like
+
+            header.html
+            bodycontent.html
+            or footer.html to grapesjs
+         */
+        DemoController democtrl = new DemoController();
+        mv.addObject("loadnavigationtogjs", democtrl);
+
+
+
+        /*
+            load defautl html page to grapesjs
+            and display in editor
+         */
+
+        mv.addObject("defaultpage", idexservice.getDcontroller().loaddefaultpagetograpesjs()); // default is demo.html set to grapesjs
+
         return mv;
     }
 
@@ -88,6 +123,29 @@ public class IndexPageController {
     {
 
         return "redirect:/demo/";
+    }
+
+
+    /*
+        load default header
+        template
+     */
+    @RequestMapping("/header")
+    public String demoheader()
+    {
+        return "redirect:/header/";
+    }
+
+
+    /*
+            load navigation menu to
+            grapesjs
+     */
+    @RequestMapping("/loadenavigationmenu")
+    public String loadnavigatiomenu()
+    {
+
+        return "redirect:/";
     }
 
 
@@ -116,8 +174,6 @@ public class IndexPageController {
 
         idexservice.getDcontroller().saveheaderfile(gjshtml, gjscss);
         System.out.print("das ist htmlgsjs");
-
-
 
         return "header data saved";
     }
@@ -172,4 +228,82 @@ public class IndexPageController {
 
 
 
+    /**
+     *  save footer to file
+     *  footer.html
+     *  footer.css
+     *
+     * @param gjshtml
+     * @param gjscss
+     * @return
+     */
+    @RequestMapping("/getNavheaderdata")
+    @ResponseBody
+    public String navheader(
+            @RequestParam(value = "gjshtml", required = false) String gjshtml)
+
+    // HttpServletRequest request, HttpServletResponse response)
+    {
+
+
+        List<m_bootstrap_components> lbtcomp = idexservice.getDcontroller().getBootstrapComponents();
+        String htmldata = (String) lbtcomp.get(0).getCompname();
+
+        return htmldata;
+    }
+
+
+    /*
+        override default loading page "demo.html"
+        to header.html
+
+          /**  load navigation template
+         *  header.html with controller
+         *
+         */
+    /*function loadtemplatenavigationmenu()
+    {
+
+        console.log('load tempalte navigation menu');
+        $.ajax({
+                type : "POST",
+            url : "loadnavigationmenu",
+            data : {
+
+        'headerfragment': 'loadheader'
+    }, // parameters
+        success : function(result) {
+        // alert('changed');
+        // editor.setComponents('header.html'); add html string to editor grapesjs
+
+        editor.setDocument("header.html");
+        editor.reload();
+        console.log('sucess');
+
+    }
+           });
+    }
+
+     */
+
+
+    /**
+     *
+     *
+     *
+    @RequestMapping(value = "/loadnavigationmenu", method = RequestMethod.POST)
+    public String loadheaderfragment(@RequestParam("headerfragment") String headerfragment)
+    {
+
+
+        headerfragment = idexservice.getDcontroller().loadheaderpagetograpesjs();  // header.html
+        String defaultpage = idexservice.getDcontroller().loaddefaultpagetograpesjs();  // demo.html
+
+        index().getModel().replace("defaultpage", idexservice.getDcontroller().loadheaderpagetograpesjs()); // header.html
+
+
+        return "redirect:/";
+    }
+
+    **/
 }

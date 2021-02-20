@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AjcSettings">
+    <option name="ajcPath" value="/usr/share/java/aspectjtools.jar" />
+    <option name="delegateToJavac" value="true" />
+    <option name="aptOptionsEnabled" value="true" />
+  </component>
   <component name="CompilerConfiguration">
     <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
