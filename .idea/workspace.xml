@@ -14,13 +14,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="change jetty webserver to tomcat &#10;becouse the javascript function &#10;are not available">
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit charset to iso-8859-1">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_websitebuilder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_websitebuilder.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bodycontent.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/bodycontent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +69,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.8.1" />
-        <option name="usePluginRegistry" value="true" />
+        <option name="mavenHome" value="$USER_HOME$/Dokumente/apache-maven-3.8.4-bin/apache-maven-3.8.4" />
+        <option name="nonRecursive" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -148,6 +145,8 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="DemoWebsitebuilder.java" />
+      <command value="mvn install" />
+      <command value="mvn deploy" />
     </option>
   </component>
   <component name="RunAnythingContextRecentDirectoryCache">
@@ -155,7 +154,7 @@
       <recentPaths value="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoWebsitebuilderApplication">
+  <component name="RunManager" selected="Docker.Websitebuilder">
     <configuration name="DemoWebsitebuilderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.jgsoftware.websitebuilder.DemoWebsitebuilderApplication" />
       <module name="demo_websitebuilder" />
@@ -190,9 +189,29 @@
       <option name="INCLUDE_PROVIDED_SCOPE" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Websitebuilder" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="jgsoftwares/jgsoftwares:linuxgraalvmce" />
+          <option name="containerName" value="websitebuilder" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8442" />
+                <option name="hostIp" value="217.160.255.254" />
+                <option name="hostPort" value="8442" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.websitebuilder" />
       <item itemvalue="Application.DemoWebsitebuilderApplication" />
+      <item itemvalue="Docker.Websitebuilder" />
       <item itemvalue="JAR Application.demo_websitebuilder.jar" />
       <item itemvalue="Spring Boot.DemoWebsitebuilderApplication" />
     </list>
@@ -300,7 +319,7 @@
       <workItem from="1612087752265" duration="5167000" />
       <workItem from="1613739010082" duration="4237000" />
       <workItem from="1644752477739" duration="583000" />
-      <workItem from="1644753629036" duration="150000" />
+      <workItem from="1644753629036" duration="2244000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -491,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613817153788</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="edit charset to iso-8859-1">
+      <created>1644753800942</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1644753800942</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +572,8 @@
     <MESSAGE value="add bootstrap default theme with loading by bootstrap.min.js" />
     <MESSAGE value="add bootstrap toolbar with jquery to clear canvas &#10;becouse grapesjs plugin is not loaded correctly" />
     <MESSAGE value="change jetty webserver to tomcat &#10;becouse the javascript function &#10;are not available" />
-    <option name="LAST_COMMIT_MESSAGE" value="change jetty webserver to tomcat &#10;becouse the javascript function &#10;are not available" />
+    <MESSAGE value="edit charset to iso-8859-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit charset to iso-8859-1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
