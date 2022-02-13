@@ -37,9 +37,9 @@ For Docker
 
 To build the image type:
 
-docker build -f Dockerfile -t demolanserver .
+docker build -f Dockerfile -t demowebsitebuilder .
 
-and you create a docker image with CentOS runs in a container over port 8443.
+and you create a docker image with CentOS runs in a container over port 8442.
 
 Run the application and open ports by create a new container
 
@@ -53,9 +53,9 @@ docker for windows are available on https://www.docker.com/products/docker-deskt
 
 for config on an docker image make a backup with
 
-docker save -o jgsoftwares.tar jgsoftwares/jgsoftwares
+docker save -o demowebsitebuilder.tar jgsoftwares/jgsoftwares
 
-to load your image to docker desktop type: docker load --input jgsoftwares.tar
+to load your image to docker desktop type: docker load --input demowebsitebuilder.tar
 
 <br/>
 
