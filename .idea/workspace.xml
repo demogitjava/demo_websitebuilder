@@ -14,11 +14,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit charset to iso-8859-1">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add dockerfile and edit port &#10;to 8442&#10;to connect over https">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo_websitebuilder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_websitebuilder.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +145,7 @@
     <option name="myCommands">
       <command value="DemoWebsitebuilder.java" />
       <command value="mvn install" />
+      <command value="mvn compile" />
       <command value="mvn deploy" />
     </option>
   </component>
@@ -319,7 +319,8 @@
       <workItem from="1612087752265" duration="5167000" />
       <workItem from="1613739010082" duration="4237000" />
       <workItem from="1644752477739" duration="583000" />
-      <workItem from="1644753629036" duration="2244000" />
+      <workItem from="1644753629036" duration="3635000" />
+      <workItem from="1644763299866" duration="5642000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -517,11 +518,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644753800942</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add dockerfile and edit port &#10;to 8442&#10;to connect over https">
+      <created>1644755902825</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1644755902825</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -548,7 +559,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="set up demo websitebuilder for module webshop" />
     <MESSAGE value="add bootstrap4 album excmpalte to websitebuilder" />
     <MESSAGE value="update programm run with maven repositorys" />
     <MESSAGE value="add bootstrap small business template to websitebuilder &#10;in the demo.html as default" />
@@ -573,7 +583,8 @@
     <MESSAGE value="add bootstrap toolbar with jquery to clear canvas &#10;becouse grapesjs plugin is not loaded correctly" />
     <MESSAGE value="change jetty webserver to tomcat &#10;becouse the javascript function &#10;are not available" />
     <MESSAGE value="edit charset to iso-8859-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit charset to iso-8859-1" />
+    <MESSAGE value="add dockerfile and edit port &#10;to 8442&#10;to connect over https" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dockerfile and edit port &#10;to 8442&#10;to connect over https" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

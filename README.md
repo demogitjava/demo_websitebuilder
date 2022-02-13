@@ -1,32 +1,63 @@
 
 Demo Websitebuilder with Spring Boot + Theamleaf + Grapesjs
-============================================================
-
-make sure that h2 demodatabases are installed.
-
-The default path is your user directory as root
-under ubuntu is
-<br/>
-/root
-<br/>
-for an other path you have to edit the application.properties file
 
 <br/>
 <br/>
+<br/>
 
-to run this programm you can choose Netbeans
-=============================================
+The used database is H2 from here
+http://www.h2database.com/html/download.html
+<br/>
+
+the application port is
+https://localhost:8442
+you can edit the port in the application.properties to
+8443 as "default".
+<br/>
+<br/>
+
+used ide
 https://netbeans.apache.org/
-==============================================
-<br/>
-or you can wirte in terminal
-<br/>
-/usr/lib/jvm/java-1.8.0-openjdk-i386/bin/java -Dfile.encoding=UTF-8 -jar /root/IdeaProjects/demo_websitebuilder/target/demo_websitebuilder-0.0.1-SNAPSHOT.jar
-</br>
-to start programm watch out your directory path as "user"
 <br/>
 
 
+To compile this application install maven.
+maven https://downloads.apache.org/maven/maven-3/3.8.2/binaries/apache-maven-3.8.2-bin.zip
+
+make sure that java is correctly installed and the "JAVA_HOME" path is set.
+<br/>
+
+You can get the java jdk from here:
+used jdk: **GraalVM Community ** https://www.graalvm.org/downloads/
+
+<br/>
+
+
+For Docker
+
+To build the image type:
+
+docker build -f Dockerfile -t demowebsitebuilder .
+
+and you create a docker image with CentOS runs in a container over port 8442.
+
+Run the application and open ports by create a new container
+
+8443
+
+9092
+
+5005 (optional for debug)
+
+docker for windows are available on https://www.docker.com/products/docker-desktop
+
+for config on an docker image make a backup with
+
+docker save -o demowebsitebuilder.tar jgsoftwares/jgsoftwares
+
+to load your image to docker desktop type: docker load --input demowebsitebuilder.tar
+
+<br/>
 
 
 
