@@ -15,7 +15,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit readme">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_websitebuilder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_websitebuilder.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/Dokumente/apache-maven-3.8.4-bin/apache-maven-3.8.4" />
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.8.4" />
         <option name="nonRecursive" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -119,7 +122,7 @@
     <property name="project.structure.side.proportion" value="0.27424023" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -170,6 +173,30 @@
       <option name="INCLUDE_PROVIDED_SCOPE" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="DemoWebSiteBuilder" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="jgsoftwares/jgsoftwares:linuxgraalvmce" />
+          <option name="containerName" value="demowebsitebuilder" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="80" />
+                <option name="hostIp" value="127.0.0.1" />
+                <option name="hostPort" value="80" />
+              </DockerPortBindingImpl>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="443" />
+                <option name="hostIp" value="127.0.0.1" />
+                <option name="hostPort" value="443" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="Websitebuilder" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -189,73 +216,12 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="ubuntuh2" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
-      <deployment type="docker-image">
-        <settings>
-          <option name="imageTag" value="jgsoftwares/jgsoftwares:ubuntu386" />
-          <option name="containerName" value="ubuntuh2database" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="ubuntunginx" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
-      <deployment type="docker-image">
-        <settings>
-          <option name="imageTag" value="jgsoftwares/jgsoftwares:ubuntu386" />
-          <option name="containerName" value="ubuntungix" />
-          <option name="portBindings">
-            <list>
-              <DockerPortBindingImpl>
-                <option name="containerPort" value="53" />
-                <option name="hostIp" value="217.160.255.254" />
-                <option name="hostPort" value="53" />
-              </DockerPortBindingImpl>
-              <DockerPortBindingImpl>
-                <option name="containerPort" value="80" />
-                <option name="hostIp" value="217.160.255.254" />
-                <option name="hostPort" value="80" />
-              </DockerPortBindingImpl>
-            </list>
-          </option>
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="ubuntuwebshop" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
-      <deployment type="docker-image">
-        <settings>
-          <option name="imageTag" value="jgsoftwares/jgsoftwares:ubuntu386" />
-          <option name="containerName" value="ubuntuwebshop" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="ubuntuwebsite" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
-      <deployment type="docker-image">
-        <settings>
-          <option name="imageTag" value="jgsoftwares/jgsoftwares:ubuntu386" />
-          <option name="containerName" value="ubuntuwebsite" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.websitebuilder" />
       <item itemvalue="Docker.Websitebuilder" />
-      <item itemvalue="Docker.ubuntunginx" />
-      <item itemvalue="Docker.ubuntuh2" />
-      <item itemvalue="Docker.ubuntuwebsite" />
-      <item itemvalue="Docker.ubuntuwebshop" />
+      <item itemvalue="Docker.DemoWebSiteBuilder" />
       <item itemvalue="Spring Boot.DemoWebsitebuilderApplication" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Docker.ubuntunginx" />
-        <item itemvalue="Docker.ubuntuwebshop" />
-        <item itemvalue="Docker.ubuntuwebsite" />
-        <item itemvalue="Docker.ubuntuh2" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -357,6 +323,7 @@
       <workItem from="1644753629036" duration="3635000" />
       <workItem from="1644763299866" duration="16506000" />
       <workItem from="1644838979872" duration="3591000" />
+      <workItem from="1644942811804" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>

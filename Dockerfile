@@ -17,6 +17,6 @@ ADD https://github.com/demogitjava/demodatabase/raw/master/shopdb.mv.db /root/sh
 #ADD https://github.com/demogitjava/demodatabase/raw/master/Dropboxclient.jar /root/applib/dropboxclient.jar
 
 ENV JAVA_TOOL_OPTIONS -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005
-COPY target/Demowebsitebuilder.jar websitebuilder.jar
+COPY target/demo_websitebuilder-0.0.1-SNAPSHOT.jar websitebuilder.jar
 
 ENTRYPOINT ["java", "-jar", "websitebuilder.jar"]
