@@ -14,11 +14,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit readme">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit encoding to iso-8859-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_websitebuilder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_websitebuilder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +153,7 @@
       <recentPaths value="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder" />
     </option>
   </component>
-  <component name="RunManager" selected="Docker.Websitebuilder">
+  <component name="RunManager" selected="Spring Boot.DemoWebsitebuilderApplication">
     <configuration name="websitebuilder" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="de.jgsoftware.websitebuilder.DemoWebsitebuilderApplication" />
       <module name="demo_websitebuilder" />
@@ -169,7 +167,7 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="de.jgsoftware.websitebuilder.DemoWebsitebuilderApplication" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/target" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH" value="graalvm-11" />
       <option name="INCLUDE_PROVIDED_SCOPE" value="false" />
       <method v="2" />
     </configuration>
@@ -205,9 +203,9 @@
           <option name="portBindings">
             <list>
               <DockerPortBindingImpl>
-                <option name="containerPort" value="8442" />
+                <option name="containerPort" value="80" />
                 <option name="hostIp" value="217.160.255.254" />
-                <option name="hostPort" value="8442" />
+                <option name="hostPort" value="80" />
               </DockerPortBindingImpl>
             </list>
           </option>
@@ -323,7 +321,8 @@
       <workItem from="1644753629036" duration="3635000" />
       <workItem from="1644763299866" duration="16506000" />
       <workItem from="1644838979872" duration="3591000" />
-      <workItem from="1644942811804" duration="2282000" />
+      <workItem from="1644942811804" duration="3166000" />
+      <workItem from="1645001069362" duration="946000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -535,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644771505392</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="edit encoding to iso-8859-1">
+      <created>1645000236993</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1645000236993</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +575,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update programm run with maven repositorys" />
     <MESSAGE value="add bootstrap small business template to websitebuilder &#10;in the demo.html as default" />
     <MESSAGE value="add bootstrap small business template to websitebuilder &#10;in the demo.html as default.&#10;&#10;implement h2 server with h2-console to edit datatables" />
     <MESSAGE value="load grapesjs Thymeleaf, and Spring Boot" />
@@ -594,7 +599,8 @@
     <MESSAGE value="edit charset to iso-8859-1" />
     <MESSAGE value="add dockerfile and edit port &#10;to 8442&#10;to connect over https" />
     <MESSAGE value="edit readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit readme" />
+    <MESSAGE value="edit encoding to iso-8859-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit encoding to iso-8859-1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -616,5 +622,9 @@
         <PinnedItemInfo />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
