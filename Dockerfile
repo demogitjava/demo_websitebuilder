@@ -1,6 +1,11 @@
 FROM jgsoftwares/jgsoftwares:linuxgraalvmce
 #FROM jgsoftwares/jgsoftwares:i386ubuntuopenjdk
 
+#hostname
+ENV HOSTNAME demowebsitebuilder
+
+
+
 # locale to german
 ENV LANG=de_DE.ISO-8859-1
 ENV LANGUAGE de_DE:de
