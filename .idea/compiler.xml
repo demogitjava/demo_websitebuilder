@@ -6,7 +6,6 @@
     <option name="aptOptionsEnabled" value="true" />
   </component>
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="Eclipse" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -16,7 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
-      <module name="demo_websitebuilder" target="11" />
+      <module name="demo_websitebuilder" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

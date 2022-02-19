@@ -14,15 +14,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit encoding to iso-8859-1">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit spring boot DemoWebsitebuilderApplication start class">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo_websitebuilder.eml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_websitebuilder.eml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo_websitebuilder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_websitebuilder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/DemoWebsitebuilderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder/DemoWebsitebuilderApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -117,7 +116,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dockerfile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -130,7 +129,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/src/main/resources/static" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15743622" />
     <property name="project.structure.side.proportion" value="0.27424023" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -158,9 +157,9 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="DemoWebsitebuilder.java" />
-      <command value="mvn install" />
       <command value="mvn compile" />
       <command value="mvn deploy" />
+      <command value="mvn install" />
     </option>
   </component>
   <component name="RunAnythingContextRecentDirectoryCache">
@@ -168,7 +167,7 @@
       <recentPaths value="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder" />
     </option>
   </component>
-  <component name="RunManager" selected="Docker.DemoWebSiteBuilder">
+  <component name="RunManager" selected="Spring Boot.Unnamed">
     <configuration name="websitebuilder" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="de.jgsoftware.websitebuilder.DemoWebsitebuilderApplication" />
       <module name="demo_websitebuilder" />
@@ -177,14 +176,14 @@
         <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoWebsitebuilderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" activateToolWindowBeforeRun="false">
+    <configuration name="Unnamed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo_websitebuilder" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="de.jgsoftware.websitebuilder.DemoWebsitebuilderApplication" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/target" />
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="INCLUDE_PROVIDED_SCOPE" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SHORTEN_COMMAND_LINE" value="NONE" />
-      <method v="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DemoWebSiteBuilder" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
@@ -222,9 +221,9 @@
           <option name="portBindings">
             <list>
               <DockerPortBindingImpl>
-                <option name="containerPort" value="80" />
+                <option name="containerPort" value="8442" />
                 <option name="hostIp" value="217.160.255.254" />
-                <option name="hostPort" value="80" />
+                <option name="hostPort" value="8442" />
               </DockerPortBindingImpl>
             </list>
           </option>
@@ -239,7 +238,7 @@
       <item itemvalue="Docker.DemoWebSiteBuilder" />
       <item itemvalue="Docker.Docker Image" />
       <item itemvalue="Docker.Docker Image (1)" />
-      <item itemvalue="Spring Boot.DemoWebsitebuilderApplication" />
+      <item itemvalue="Spring Boot.Unnamed" />
     </list>
     <recent_temporary>
       <list>
@@ -354,7 +353,9 @@
       <workItem from="1645111855464" duration="270000" />
       <workItem from="1645112295477" duration="1434000" />
       <workItem from="1645113819051" duration="3695000" />
-      <workItem from="1645181497404" duration="6255000" />
+      <workItem from="1645181497404" duration="8245000" />
+      <workItem from="1645283423177" duration="2133000" />
+      <workItem from="1645286707241" duration="1273000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -573,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645000236993</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add hostname to dockerfile">
+      <created>1645214178280</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1645214178280</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,8 +616,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add bootstrap small business template to websitebuilder &#10;in the demo.html as default" />
-    <MESSAGE value="add bootstrap small business template to websitebuilder &#10;in the demo.html as default.&#10;&#10;implement h2 server with h2-console to edit datatables" />
     <MESSAGE value="load grapesjs Thymeleaf, and Spring Boot" />
     <MESSAGE value="disable hsts header in spring boot config security" />
     <MESSAGE value="add free version of front-awesome to the project and html fix errors" />
@@ -633,7 +639,9 @@
     <MESSAGE value="add dockerfile and edit port &#10;to 8442&#10;to connect over https" />
     <MESSAGE value="edit readme" />
     <MESSAGE value="edit encoding to iso-8859-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit encoding to iso-8859-1" />
+    <MESSAGE value="add hostname to dockerfile" />
+    <MESSAGE value="edit spring boot DemoWebsitebuilderApplication start class" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit spring boot DemoWebsitebuilderApplication start class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

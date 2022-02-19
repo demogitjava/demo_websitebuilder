@@ -53,7 +53,7 @@ public class DemoWebsitebuilderApplication
                 System.out.print("H2 server was started and is running." + "\n");
             } else
             {
-                h2Server = Server.createTcpServer().start();
+
                 h2Server = Server.createWebServer().start();
                 throw new RuntimeException("Could not start H2 server." + "\n");
             }
