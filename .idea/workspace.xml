@@ -14,9 +14,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment=".">
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add a server-servlet-context-path&#10;to module for path url&#10;&#10;/dwb for demowebsitebuilder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_websitebuilder.eml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_websitebuilder.eml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +110,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -350,7 +349,8 @@
       <workItem from="1645113819051" duration="3695000" />
       <workItem from="1645181497404" duration="8245000" />
       <workItem from="1645283423177" duration="2133000" />
-      <workItem from="1645286707241" duration="2631000" />
+      <workItem from="1645286707241" duration="4015000" />
+      <workItem from="1645350508400" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -583,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645288000452</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add a server-servlet-context-path&#10;to module for path url&#10;&#10;/dwb for demowebsitebuilder">
+      <created>1645347215246</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1645347215246</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +625,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="disable hsts header in spring boot config security" />
     <MESSAGE value="add free version of front-awesome to the project and html fix errors" />
     <MESSAGE value="add gitatribute for java projects" />
     <MESSAGE value="add to pom.xml remote pluginurl https://repo.maven.apache.org/maven2" />
@@ -643,7 +649,8 @@
     <MESSAGE value="add hostname to dockerfile" />
     <MESSAGE value="edit spring boot DemoWebsitebuilderApplication start class" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="add a server-servlet-context-path&#10;to module for path url&#10;&#10;/dwb for demowebsitebuilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a server-servlet-context-path&#10;to module for path url&#10;&#10;/dwb for demowebsitebuilder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
