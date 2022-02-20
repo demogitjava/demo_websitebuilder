@@ -6,6 +6,7 @@
     <option name="aptOptionsEnabled" value="true" />
   </component>
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -15,10 +16,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
-      <module name="demo_websitebuilder" target="1.8" />
+      <module name="demo_websitebuilder" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="java -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:-UseJVMCICompiler " />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo_websitebuilder" options="-parameters" />
     </option>

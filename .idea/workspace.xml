@@ -14,9 +14,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add a server-servlet-context-path&#10;to module for path url&#10;&#10;/dwb for demowebsitebuilder">
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit url path to webbuilder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,7 @@
     <property name="project.structure.side.proportion" value="0.27424023" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -350,7 +349,7 @@
       <workItem from="1645181497404" duration="8245000" />
       <workItem from="1645283423177" duration="2133000" />
       <workItem from="1645286707241" duration="4015000" />
-      <workItem from="1645350508400" duration="47000" />
+      <workItem from="1645350508400" duration="2346000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -590,7 +589,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645347215246</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="edit url path to webbuilder">
+      <created>1645350578820</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1645350578820</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +631,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add free version of front-awesome to the project and html fix errors" />
     <MESSAGE value="add gitatribute for java projects" />
     <MESSAGE value="add to pom.xml remote pluginurl https://repo.maven.apache.org/maven2" />
     <MESSAGE value="edit readme.md" />
@@ -650,7 +655,8 @@
     <MESSAGE value="edit spring boot DemoWebsitebuilderApplication start class" />
     <MESSAGE value="." />
     <MESSAGE value="add a server-servlet-context-path&#10;to module for path url&#10;&#10;/dwb for demowebsitebuilder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a server-servlet-context-path&#10;to module for path url&#10;&#10;/dwb for demowebsitebuilder" />
+    <MESSAGE value="edit url path to webbuilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit url path to webbuilder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
