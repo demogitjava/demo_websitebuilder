@@ -14,8 +14,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit url path to webbuilder">
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit settings to graalvm11">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_websitebuilder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_websitebuilder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +40,7 @@
         <option value="Interface" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="com.haulmont.jpb.JpaEntity" />
       </list>
     </option>
   </component>
@@ -48,11 +58,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -109,7 +123,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -122,12 +136,12 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/src/main/resources/static" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15743622" />
     <property name="project.structure.side.proportion" value="0.27424023" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -138,21 +152,21 @@
       <recent name="$PROJECT_DIR$/src/main/resources/static/jquery/ui" />
       <recent name="$PROJECT_DIR$/src/main/resources/static" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="de.jgsoftware.websitebuilder.config" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/target/classes/static" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/bootstrap4/css" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/fontawesome/css" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.jgsoftware.websitebuilder.config" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="DemoWebsitebuilder.java" />
       <command value="mvn compile" />
-      <command value="mvn deploy" />
       <command value="mvn install" />
+      <command value="mvn deploy" />
     </option>
   </component>
   <component name="RunAnythingContextRecentDirectoryCache">
@@ -160,7 +174,7 @@
       <recentPaths value="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoWebSiteBuilder">
+  <component name="RunManager" selected="Docker.DemoWebSiteBuilder">
     <configuration name="websitebuilder" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="de.jgsoftware.websitebuilder.DemoWebsitebuilderApplication" />
       <module name="demo_websitebuilder" />
@@ -182,41 +196,14 @@
       <deployment type="dockerfile">
         <settings>
           <option name="imageTag" value="jgsoftwares/jgsoftwares:linuxgraalvmce" />
+          <option name="buildOnly" value="true" />
           <option name="containerName" value="demowebsitebuilder" />
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="Docker Image (1)" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
-      <deployment type="docker-image">
-        <settings>
-          <option name="imageTag" value="jgsoftwares/jgsoftwares:opensuseleapjava" />
-          <option name="containerName" value="opensusejava" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
-      <deployment type="docker-image">
-        <settings>
-          <option name="imageTag" value="jgsoftwares/jgsoftwares:opensuseleapjava" />
-          <option name="containerName" value="nginxsuse" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="Websitebuilder" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="imageTag" value="jgsoftwares/jgsoftwares:linuxgraalvmce" />
-          <option name="containerName" value="websitebuilder" />
           <option name="portBindings">
             <list>
               <DockerPortBindingImpl>
-                <option name="containerPort" value="8442" />
+                <option name="containerPort" value="80" />
                 <option name="hostIp" value="217.160.255.254" />
-                <option name="hostPort" value="8442" />
+                <option name="hostPort" value="80" />
               </DockerPortBindingImpl>
             </list>
           </option>
@@ -227,18 +214,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.websitebuilder" />
-      <item itemvalue="Docker.Websitebuilder" />
       <item itemvalue="Docker.DemoWebSiteBuilder" />
-      <item itemvalue="Docker.Docker Image" />
-      <item itemvalue="Docker.Docker Image (1)" />
       <item itemvalue="Spring Boot.DemoWebSiteBuilder" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Docker.Docker Image (1)" />
-        <item itemvalue="Docker.Docker Image" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -349,7 +327,12 @@
       <workItem from="1645181497404" duration="8245000" />
       <workItem from="1645283423177" duration="2133000" />
       <workItem from="1645286707241" duration="4015000" />
-      <workItem from="1645350508400" duration="2346000" />
+      <workItem from="1645350508400" duration="4245000" />
+      <workItem from="1645357115117" duration="2905000" />
+      <workItem from="1645368586446" duration="2572000" />
+      <workItem from="1645434081184" duration="195000" />
+      <workItem from="1645434851031" duration="200000" />
+      <workItem from="1645435201040" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -596,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645350578820</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="edit settings to graalvm11">
+      <created>1645355347140</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1645355347140</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,7 +621,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add gitatribute for java projects" />
     <MESSAGE value="add to pom.xml remote pluginurl https://repo.maven.apache.org/maven2" />
     <MESSAGE value="edit readme.md" />
     <MESSAGE value="add a preview page with a second controller to project." />
@@ -656,7 +645,8 @@
     <MESSAGE value="." />
     <MESSAGE value="add a server-servlet-context-path&#10;to module for path url&#10;&#10;/dwb for demowebsitebuilder" />
     <MESSAGE value="edit url path to webbuilder" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit url path to webbuilder" />
+    <MESSAGE value="edit settings to graalvm11" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit settings to graalvm11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

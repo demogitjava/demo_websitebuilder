@@ -2,7 +2,7 @@ FROM jgsoftwares/jgsoftwares:linuxgraalvmce
 #FROM jgsoftwares/jgsoftwares:i386ubuntuopenjdk
 
 #hostname
-ENV HOSTNAME demowebsitebuilder
+ENV HOSTNAME webbuilder
 
 
 
