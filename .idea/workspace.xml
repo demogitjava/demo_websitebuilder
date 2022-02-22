@@ -14,13 +14,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit settings to graalvm11">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add repository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_websitebuilder.eml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_websitebuilder.eml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_websitebuilder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_websitebuilder.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +175,10 @@
         <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
+    <configuration name="demo_websitebuilder-0.0.1-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/demo_websitebuilder-0.0.1-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
     <configuration name="DemoWebSiteBuilder" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo_websitebuilder" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="de.jgsoftware.websitebuilder.DemoWebsitebuilderApplication" />
@@ -212,7 +212,13 @@
       <item itemvalue="Application.websitebuilder" />
       <item itemvalue="Docker.Dockerfile: Compose Deployment" />
       <item itemvalue="Spring Boot.DemoWebSiteBuilder" />
+      <item itemvalue="JAR Application.demo_websitebuilder-0.0.1-SNAPSHOT.jar" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.demo_websitebuilder-0.0.1-SNAPSHOT.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -331,7 +337,7 @@
       <workItem from="1645435201040" duration="83000" />
       <workItem from="1645526294265" duration="2028000" />
       <workItem from="1645546527714" duration="171000" />
-      <workItem from="1645546702220" duration="353000" />
+      <workItem from="1645546702220" duration="1817000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -585,7 +591,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645355347140</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="add repository">
+      <created>1645547308461</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1645547308461</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +633,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add to pom.xml remote pluginurl https://repo.maven.apache.org/maven2" />
     <MESSAGE value="edit readme.md" />
     <MESSAGE value="add a preview page with a second controller to project." />
     <MESSAGE value="edit index.html page input fields" />
@@ -645,7 +657,8 @@
     <MESSAGE value="add a server-servlet-context-path&#10;to module for path url&#10;&#10;/dwb for demowebsitebuilder" />
     <MESSAGE value="edit url path to webbuilder" />
     <MESSAGE value="edit settings to graalvm11" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit settings to graalvm11" />
+    <MESSAGE value="add repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="add repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
