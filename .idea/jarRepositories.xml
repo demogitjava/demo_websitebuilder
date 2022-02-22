@@ -7,19 +7,9 @@
       <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="0bffe0d8-ecab-47c6-987c-6c3512f34123" />
-      <option name="name" value="0bffe0d8-ecab-47c6-987c-6c3512f34123" />
-      <option name="url" value="https://repo.spring.io/libs-snapshot/" />
-    </remote-repository>
-    <remote-repository>
       <option name="id" value="spring-libs-snapshot" />
       <option name="name" value="spring-libs-snapshot" />
       <option name="url" value="https://repo.spring.io/libs-snapshot" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="oss-sonatype" />
-      <option name="name" value="oss-sonatype" />
-      <option name="url" value="https://oss.sonatype.org/content/repositories/snapshots/" />
     </remote-repository>
   </component>
 </project>

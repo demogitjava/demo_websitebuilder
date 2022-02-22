@@ -14,9 +14,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="add repository">
+    <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit pom.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_websitebuilder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_websitebuilder.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +129,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/src/main/resources/static" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15743622" />
     <property name="project.structure.side.proportion" value="0.27424023" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -158,7 +159,9 @@
       <command value="DemoWebsitebuilder.java" />
       <command value="mvn compile" />
       <command value="mvn deploy" />
+      <command value="mvn clean:clean" />
       <command value="mvn install" />
+      <command value="mvn clean" />
     </option>
   </component>
   <component name="RunAnythingContextRecentDirectoryCache">
@@ -211,8 +214,8 @@
     <list>
       <item itemvalue="Application.websitebuilder" />
       <item itemvalue="Docker.Dockerfile: Compose Deployment" />
-      <item itemvalue="Spring Boot.DemoWebSiteBuilder" />
       <item itemvalue="JAR Application.demo_websitebuilder-0.0.1-SNAPSHOT.jar" />
+      <item itemvalue="Spring Boot.DemoWebSiteBuilder" />
     </list>
     <recent_temporary>
       <list>
@@ -337,7 +340,8 @@
       <workItem from="1645435201040" duration="83000" />
       <workItem from="1645526294265" duration="2028000" />
       <workItem from="1645546527714" duration="171000" />
-      <workItem from="1645546702220" duration="1817000" />
+      <workItem from="1645546702220" duration="3456000" />
+      <workItem from="1645551306437" duration="129000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
@@ -598,7 +602,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645547308461</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="edit pom.xml">
+      <created>1645548550786</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1645548550786</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,8 +644,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="edit readme.md" />
-    <MESSAGE value="add a preview page with a second controller to project." />
     <MESSAGE value="edit index.html page input fields" />
     <MESSAGE value="add demo MVC Spring Boot Controller&#10;to preview page" />
     <MESSAGE value="edit javascript tag to th:inline" />
@@ -658,7 +667,9 @@
     <MESSAGE value="edit url path to webbuilder" />
     <MESSAGE value="edit settings to graalvm11" />
     <MESSAGE value="add repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="add repository" />
+    <MESSAGE value="edit pomx.xml" />
+    <MESSAGE value="edit pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit pom.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
