@@ -16,5 +16,10 @@
       <option name="name" value="spring-libs-snapshot" />
       <option name="url" value="https://repo.spring.io/libs-snapshot" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="oss-sonatype" />
+      <option name="name" value="oss-sonatype" />
+      <option name="url" value="https://oss.sonatype.org/content/repositories/snapshots/" />
+    </remote-repository>
   </component>
 </project>

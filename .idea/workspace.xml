@@ -16,13 +16,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ca79725b-7b41-49e3-8b63-18975550b86e" name="Default Changelist" comment="edit settings to graalvm11">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_websitebuilder.eml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_websitebuilder.eml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo_websitebuilder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_websitebuilder.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -136,12 +132,12 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/src/main/resources/static" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15743622" />
     <property name="project.structure.side.proportion" value="0.27424023" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -165,8 +161,8 @@
     <option name="myCommands">
       <command value="DemoWebsitebuilder.java" />
       <command value="mvn compile" />
-      <command value="mvn install" />
       <command value="mvn deploy" />
+      <command value="mvn install" />
     </option>
   </component>
   <component name="RunAnythingContextRecentDirectoryCache">
@@ -174,7 +170,7 @@
       <recentPaths value="$PROJECT_DIR$/src/main/java/de/jgsoftware/websitebuilder" />
     </option>
   </component>
-  <component name="RunManager" selected="Docker.DemoWebSiteBuilder">
+  <component name="RunManager" selected="Spring Boot.DemoWebSiteBuilder">
     <configuration name="websitebuilder" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="de.jgsoftware.websitebuilder.DemoWebsitebuilderApplication" />
       <module name="demo_websitebuilder" />
@@ -192,11 +188,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoWebSiteBuilder" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+    <configuration name="Dockerfile: Compose Deployment" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
           <option name="imageTag" value="jgsoftwares/jgsoftwares:linuxgraalvmce" />
-          <option name="buildOnly" value="true" />
           <option name="containerName" value="demowebsitebuilder" />
           <option name="portBindings">
             <list>
@@ -207,6 +202,7 @@
               </DockerPortBindingImpl>
             </list>
           </option>
+          <option name="publishAllPorts" value="true" />
           <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
@@ -214,7 +210,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.websitebuilder" />
-      <item itemvalue="Docker.DemoWebSiteBuilder" />
+      <item itemvalue="Docker.Dockerfile: Compose Deployment" />
       <item itemvalue="Spring Boot.DemoWebSiteBuilder" />
     </list>
   </component>
@@ -333,6 +329,9 @@
       <workItem from="1645434081184" duration="195000" />
       <workItem from="1645434851031" duration="200000" />
       <workItem from="1645435201040" duration="83000" />
+      <workItem from="1645526294265" duration="2028000" />
+      <workItem from="1645546527714" duration="171000" />
+      <workItem from="1645546702220" duration="353000" />
     </task>
     <task id="LOCAL-00001" summary="set up demo websitebuilder for module webshop">
       <created>1598073193332</created>
