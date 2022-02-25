@@ -10,9 +10,13 @@ http://www.h2database.com/html/download.html
 <br/>
 
 the application port is
-https://localhost:8442
-you can edit the port in the application.properties to
-8443 as "default".
+https://localhost/webbuilder
+you can edit the port in the application.properties 
+server.port=80
+
+The first module is the project
+landingpage for docker over port 80
+
 <br/>
 <br/>
 
